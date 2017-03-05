@@ -1,0 +1,54 @@
+<!-- 1942.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="1942_bezel.png" />
+	</element>
+	<element name="cabinet">
+		<image file="Final_Arcade_Sega_Bally_Midway.png" />
+	</element>
+	<element name="screen">
+		<image file="Final_Arcade_Sega_Bally_Midway-screen.png" />
+	</element>
+	<view name="Cabinet_Clear_Screen">
+		<screen index="0">
+			<bounds x="1250" y="150" width="1475" height="1966" />
+		</screen>
+		<bezel element="cabinet">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+	</view>
+	<view name="Cabinet_Scratch_Screen">
+		<screen index="0">
+			<bounds x="1250" y="150" width="1475" height="1966" />
+		</screen>
+		<bezel element="cabinet">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+		</bezel>
+	</view>
+	<view name="1942_Artwork">
+		<screen index="0">
+			<bounds x="1036" y="647" width="1860" height="2480" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="3960" height="4000" />
+		</bezel>
+	</view>
+
+
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Bezel provided by BYOAC/CAG Artwork
+- Cabinet Bezel provided by John Merrit
+- Converted for MAME by Mr. Do, Cabinet Bezel and Screen converted by estefan3112
+- Lay file by Mr. Do
+
+-->
