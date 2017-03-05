@@ -1,0 +1,41 @@
+<!-- 1943.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="1943.png" />
+	</element>
+	<element name="screen">
+		<image file="1943-screen.png" />
+	</element>
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="1280" y="170" width="1430" height="1950" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+		</bezel>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="1280" y="170" width="1430" height="1950" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</bezel>
+	</view>	
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- bezel provided by John Merrit
+- Converted for MAME and split view by estefan3112
+- Based on Lay file by Mr. Do
+
+-->
