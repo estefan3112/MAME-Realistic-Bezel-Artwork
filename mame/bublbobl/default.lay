@@ -1,0 +1,117 @@
+<!-- bublbobl.lay -->
+
+<mamelayout version="2">
+	<element name="cabinet">
+		<image file="bublbobl.png" />
+	</element>
+	<element name="screen">
+		<image file="bublbobl-screen.png" />
+	</element>	
+	<element name="homebrew">
+		<image file="bubbob_bezel.png" />
+	</element>
+	<element name="inst_vert">
+		<image file="bublbobl_inst_vert.png" />
+	</element>
+	<element name="inst_horiz">
+		<image file="bublbobl_inst_horiz.png" />
+	</element>
+	<element name="inst_horiz2">
+		<image file="bublbobl_inst_horiz_2.png" />
+	</element>
+	<element name="bezel_noref">
+	    <image file="bublbobl_bezel_noref.png" />
+	</element>
+	<element name="screen_bezel">
+   	 <image file="horz_screen_bezel.png" />
+	</element>
+	<element name="screen_mask">
+ 	   <image file="horz_screen_mask.png" />
+	</element>
+	
+	<view name="Cabinet_Clear_Screen">
+		<screen index="0">
+			<bounds x="815" y="230" width="2370" height="1777" />
+		</screen>
+		<bezel element="cabinet">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+	</view>
+	
+	<view name="Cabinet_Scratch_Screen">
+		<screen index="0">
+			<bounds x="815" y="230" width="2370" height="1777" />
+		</screen>
+		<bezel element="cabinet">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+		</bezel>
+		<bezel element="inst_vert">
+			<bounds x="385" y="1300" width="445" height="616" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
+		</bezel>
+	</view>	
+  
+  <view name="Cab Artwork (no reflection)">
+    <screen index="0">
+      <bounds x="420" y="135" width="1080" height="810" />
+    </screen>
+  <overlay element="screen_mask">
+      <bounds x="419" y="134" width="1082" height="812" />
+    </overlay>
+    <backdrop element="screen_bezel">
+      <bounds x="383" y="98" width="1154" height="884" />
+    </backdrop>
+    <bezel element="bezel_noref">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
+	<view name="Inst_Card_JPN">
+		<screen index="0">
+			<bounds x="0" y="0" width="4000" height="3000" />
+		</screen>
+		<bezel element="inst_horiz">
+			<bounds x="0" y="3050" width="4000" height="738" />
+		</bezel>
+	</view>
+
+	<view name="Inst_Card_US">
+		<bounds x="-1544.5" y="0" width="9089" height="5441" />
+		<screen index="0">
+			<bounds x="0" y="0" width="6000" height="4500" />
+		</screen>
+		<backdrop element="inst_horiz2">
+			<bounds x="1000" y="4600" width="4000" height="841" />
+		</backdrop>
+		<bezel element="inst_vert">
+			<bounds x="6100" y="1500" width="1444.5" height="2000" />
+		</bezel>
+	</view>
+
+	<view name="Bezel_Homebrew">
+		<screen index="0">
+			<bounds x="905" y="707" width="2160" height="1620" />
+		</screen>
+		<bezel element="homebrew">
+			<bounds x="0" y="0" width="4000" height="3144" />
+		</bezel>
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel; Inst_Card
+- Homebrew bezel created by Ravage
+- Converted for MAME by Mr. Do
+- Scanned instruction card provided by Ravage [vertical]
+- Scanned instruction card provided by aphex [horizontal-1]
+- Scanned instruction card provided by ThePinnyParlour [horizontal-2]
+- Converted for MAME by Mr. Do
+- Lay file by Mr. Do
+
+-->

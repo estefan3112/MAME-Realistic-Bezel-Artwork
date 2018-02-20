@@ -1,0 +1,36 @@
+<!-- aliensyn NMVA.lay -->	   
+	   
+<mamelayout version="2">
+	<element name="nmva_widescreen">
+		<image file="aliensyn_nmva_ws.png" />
+	</element>
+	<element name="nmva_screen">
+		<image file="aliensyn_nmva_screen.png" />
+	</element>
+	<view name="NMVA Clear Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="515" y="240" width="908" height="681" />
+		</screen> 
+	</view>
+	<view name="NMVA Scratch Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="nmva_screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="515" y="240" width="908" height="681" />
+		</screen> 
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: NMVA
+- Lay file and screen split by estefan3112
+
+-->

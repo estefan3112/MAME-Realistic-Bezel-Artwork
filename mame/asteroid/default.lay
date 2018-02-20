@@ -1,0 +1,67 @@
+<!-- asteroid.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="asteroids_bezel.png" />
+	</element>
+	<element name="inner">
+		<image file="asteroids_internal.png" />
+	</element>
+	<element name="screen">
+		<image file="asteroids_screen.png" />
+	</element>
+	<element name="cocktail">
+		<image file="asteroids_cocktail.png" />
+	</element>
+	<element name="wood">
+		<image file="atari_cocktail_wood.png" />
+	</element>
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="1045" y="425" width="1900" height="1390" />
+		</screen>
+		<bezel element="inner">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="1045" y="425" width="1900" height="1390" />
+		</screen>
+		<bezel element="inner">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+           		<bounds x="0" y="0" width="4000" height="2250" />
+           		<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
+		</bezel>
+	</view>
+	<view name="Cocktail_Artwork">
+		<screen index="0">
+			<bounds x="1200" y="912" width="1600" height="1200" />
+		</screen>
+		<bezel element="wood">
+			<bounds x="0" y="0" width="4000" height="2990" />
+		</bezel>
+		<bezel element="cocktail">
+			<bounds x="0" y="0" width="4000" height="2990" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Scanned inner bezel provided by CADweazle
+- Flat scans reconstructed into bezel by MarbleMad, www.kinetic-arts.co.uk
+- Outer bezel vectored by Ad_Enuff
+- Converted for MAME by Ad_Enuff
+- Realistic bezel artwork by John Merrit
+- Scanned Atari cocktail frame and Asteroids graphics provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Vectored by jcroach
+- Lay file by Mr. Do
+- Additional realistic bezel by John Merrit 
+- Artwork split and lay file update by estefan3112
+
+-->

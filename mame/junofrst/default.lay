@@ -1,0 +1,43 @@
+<!-- junofrst.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="juno_first_bezel.png" />
+	</element>
+	<element name="screen">
+		<image file="juno_first_screen.png" />
+	</element>
+	<view name="Clear Screen">
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<screen index="0">
+			<bounds x="1230" y="130" width="1560" height="2080" />
+		</screen>
+	</view>
+	<view name="Scratch Screen">
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
+		</bezel>
+		<screen index="0">
+			<bounds x="1230" y="130" width="1560" height="2080" />
+		</screen>
+
+	</view>
+
+
+</mamelayout>
+
+<!--
+- Original resolution: 224 x 256 pixels; screen ratio = 7
+- Artwork type: Bezel
+- Scanned bezel provided Mikonos
+- Cleaned for MAME by Mikonos
+- Bezel split by estefan3112
+- Lay file by Mr. Do, modified by estefan3112 for dual view
+
+-->

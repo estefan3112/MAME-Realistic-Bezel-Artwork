@@ -1,0 +1,39 @@
+<!-- Paperboy NMVA.lay -->	   
+	   
+<mamelayout version="2">
+	<element name="nmva_widescreen">
+		<image file="paperboy_nmva_ws.png" />
+	</element>
+	<element name="screen">
+		<image file="paperboy_nmva_screen.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<screen index="0">
+			<bounds x="1030" y="280" width="1984" height="1488" />
+		</screen> 
+	</view>
+	<view name="Scratch Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+		</bezel>
+		<screen index="0">
+			<bounds x="1030" y="280" width="1984" height="1488" />
+		</screen> 
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: NMVA
+- Lay file by Mr. Do
+- Screen split by estefan3112
+
+-->

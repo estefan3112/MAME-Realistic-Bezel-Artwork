@@ -1,0 +1,41 @@
+<!-- Aliens NMVA.lay -->	   
+<mamelayout version="2">
+
+	<element name="nmva_widescreen">
+		<image file="aliens_nmva_ws.png" />
+	</element>
+	<element name="nmva_scratches">
+		<image file="aliens_nmva_ws_screen.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="460" y="160" width="1000" height="750" />
+		</screen> 
+	</view>
+
+	<view name="Scratch Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="nmva_scratches">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.3" />
+		</bezel>
+		<screen index="0">
+			<bounds x="460" y="160" width="1000" height="750" />
+		</screen> 
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: NMVA + Orionsangel
+- Lay file by Mr. Do
+- Screen Split by estefan3112
+
+-->

@@ -1,0 +1,53 @@
+<!-- berzerk.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="berzerk_bezel.png" />
+	</element>
+	<element name="bezel_realistic">
+		<image file="berzerk.png" />
+	</element>
+	<element name="screen">
+		<image file="berzerk_screen.png" />
+	</element>
+	<view name="Clear Screen">
+		<bezel element="bezel_realistic">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<screen index="0">
+			<bounds x="780" y="230" width="2400" height="1800" />
+		</screen>
+	</view>
+	<view name="Scratch Screen">
+		<bezel element="bezel_realistic">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.4" />
+		</bezel>
+		<screen index="0">
+			<bounds x="780" y="230" width="2400" height="1800" />
+		</screen>
+	</view>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="604" y="740" width="2800" height="2100" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3475" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+- Artwork type: Bezel
+- Scanned bezel provided Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Converted for MAME by Ad_Enuff
+- Lay file by Mr. Do
+- Additional realistic bezel by John Merrit 
+- Artwork split and lay file update by estefan3112
+
+
+-->

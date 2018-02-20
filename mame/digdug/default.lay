@@ -1,0 +1,142 @@
+<!-- digdug.lay (Other Artwork) -->	   
+	   
+<mamelayout version="2">
+	<element name="realbezel">
+		<image file="digdug_realbezel.png" />
+	</element>
+	<element name="screen">
+		<image file="digdug_screen.png" />
+	</element>
+	<element name="xbla_widescreen">
+		<image file="digdug_xbla_ws.png" alphafile="mask_1280_720_vertical.png" />
+	</element>
+	<element name="xbla_fullscreen">
+		<image file="digdug_xbla_fs.png" alphafile="mask_1280_960_vertical.png" />
+	</element>
+	<element name="nmr">
+		<image file="digdug_nmr.png" alphafile="nmr_mask.png" />
+	</element>
+	<element name="wbezel">
+		<image file="digd169.png" />
+	</element>
+	<element name="wwbezel">
+		<image file="digd1610.png" />
+	</element>
+	<element name="nme">
+		<image file="digdug_nme.png" alphafile="nme_mask.png" />
+	</element>
+	<element name="nme_cocktail">
+		<image file="digdug_nme_cocktail.png" alphafile="nme_mask.png" />
+	</element>
+	<element name="nme_demo">
+		<image file="digdug_nme_demo.png" alphafile="nme_mask.png" />
+	</element>
+	<element name="nme_demo2">
+		<image file="digdug_nme_demo2.png" alphafile="nme_mask.png" />
+	</element>
+
+	<view name="Cabinet Clear Screen">
+		<screen index="0">
+			<bounds x="1250" y="150" width="1475" height="1966" />
+		</screen>
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+	</view>
+	<view name="Cabinet_Scratch_Screen">
+		<screen index="0">
+			<bounds x="1250" y="150" width="1475" height="1966" />
+		</screen>
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+		</bezel>
+	</view>
+	<view name="XBLA_Widescreen">
+		<bezel element="xbla_widescreen">
+			<bounds x="0" y="0" width="1280" height="720" />
+		</bezel>
+		<screen index="0">
+			<bounds x="385" y="20" width="510" height="680" />
+		</screen> 
+	</view>
+	<view name="XBLA_Fullscreen">
+		<bezel element="xbla_fullscreen">
+			<bounds x="0" y="0" width="1280" height="960" />
+		</bezel>
+		<screen index="0">
+			<bounds x="310" y="40" width="660" height="880" />
+		</screen> 
+	</view>
+	<view name="NMR_Fullscreen">
+		<bezel element="nmr">
+			<bounds x="0" y="0" width="640" height="448" />
+		</bezel>
+		<screen index="0">
+			<bounds x="163" y="15" width="315" height="420" />
+		</screen> 
+	</view>
+	<view name="Widescreen 16:10 Artwork">
+		<bezel element="wwbezel">
+			<bounds left="0" top="0" right="2560" bottom="1600" />
+		</bezel>
+		<screen index="0">
+			 <bounds left="761.6" top="104.29" right="1798.4" bottom="1486.69" />
+		</screen>
+	</view>
+	<view name="Widescreen 16:9 Artwork">
+		<bezel element="wbezel">
+			<bounds left="0" top="0" right="2833" bottom="1600" />
+		</bezel>
+		<screen index="0">
+			<bounds left="817.25" top="1" right="2015.75" bottom="1599" />
+		</screen>
+	</view>
+	<view name="NME_Widescreen">
+		<bezel element="nme">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="634" y="104" width="654" height="872" />
+		</screen> 
+	</view>
+	<view name="NME_Cocktail">
+		<bezel element="nme_cocktail">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="634" y="104" width="654" height="872" />
+		</screen> 
+	</view>
+	<view name="NME_Demo">
+		<bezel element="nme_demo">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="634" y="104" width="654" height="872" />
+		</screen> 
+	</view>
+	<view name="NME_Demo2">
+		<bezel element="nme_demo2">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="634" y="104" width="654" height="872" />
+		</screen> 
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: XBLA, NMR
+- Artwork type: Custom Widescreen
+- Widescreen graphics by hausjam
+- Based on graphics in official arcade artwork
+- Lay file by Mr. Do
+- Additional realistic bezel by John Merrit 
+- Artwork split and lay file update by estefan3112
+
+-->

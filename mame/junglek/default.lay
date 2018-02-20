@@ -1,0 +1,38 @@
+<!-- junglek NMVA.lay -->	   
+	   
+<mamelayout version="2">
+	<element name="nmva_widescreen">
+		<image file="junglek_nmva_ws.png" />
+	</element>
+	<element name="nmva_screen">
+		<image file="junglek_nmva_screen.png" />
+	</element>
+
+	<view name="NMVA_Clearscreen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="575" y="325" width="776" height="582" />
+		</screen> 
+	</view>
+	<view name="NMVA_Scratchscreen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="nmva_screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="575" y="325" width="776" height="582" />
+		</screen> 
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: NMVA
+- Lay file by Orionsangel
+- Artwork crop & screen split: estefan3112
+
+-->

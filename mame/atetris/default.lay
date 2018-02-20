@@ -1,0 +1,35 @@
+<mamelayout version="2">
+	<element name="nmva_bezel">
+		<image file="atetris_nmva_ws.png"/>
+	</element>
+	<element name="nmva_screen">
+		<image file="atetris_screen.png"/>
+	</element>
+
+	<view name="NMVA_Widescreen Clear Screen">
+		<bezel element="nmva_bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="420" y="150" width="1044" height="783" />
+		</screen> 
+	</view>
+	<view name="NMVA_Widescreen Scratch Screen">
+		<bezel element="nmva_bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="nmva_screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="420" y="150" width="1044" height="783" />
+		</screen> 
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: NMVA
+- Lay file and artwork split by estefan3112
+
+-->

@@ -1,0 +1,52 @@
+<!-- altbeast.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="altered_beast_bezel.png" />
+	</element>
+	<element name="realbezel">
+		<image file="altered_beast_realbezel.png" />
+	</element>
+	<element name="screen">
+		<image file="altbeast-screen.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="780" y="70" width="2440" height="1830" />
+		</screen>
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="780" y="70" width="2440" height="1830" />
+		</screen>
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
+		</bezel>
+	</view>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="655" y="718" width="2680" height="2010" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3728" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+- Artwork type: Bezel
+- Bezel provided by BYOAC/CAG Artwork
+- Cleaned for MAME by Mr. Do
+- Lay file by Mr. Do
+- Additional realistic bezel by John Merrit 
+- Artwork split and lay file update by estefan3112
+
+-->

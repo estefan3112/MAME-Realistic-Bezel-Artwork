@@ -1,0 +1,41 @@
+<!-- carnival.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="carnival.png" />
+	</element>
+	<element name="screen">
+		<image file="carnival-screen.png" />
+	</element>
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="1270" y="160" width="1460" height="1947" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+		</bezel>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="1270" y="160" width="1460" height="1947" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- bezel provided by John Merrit
+- Converted for MAME and Screen Split by estefan3112
+- Base on lay file by Mr. Do
+
+-->

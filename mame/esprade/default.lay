@@ -1,0 +1,39 @@
+<!-- esprade.lay -->
+
+<mamelayout version="2">
+  <element name="bezel">
+    <image file="espradej_bezel.png" />
+  </element>
+  <element name="screen">
+    <image file="espradej_screen.png" />
+  </element>  
+
+  <view name="Clear Screen">
+    <screen index="0">
+      <bounds x="1305" y="220" width="1302" height="1736" />
+    </screen>
+    <bezel element="bezel">
+      <bounds x="0" y="0" width="4000" height="2250" />
+    </bezel>
+  </view>
+
+  <view name="Scratch Screen">
+    <screen index="0">
+      <bounds x="1305" y="220" width="1302" height="1736" />
+    </screen>
+    <bezel element="bezel">
+      <bounds x="0" y="0" width="4000" height="2250" />
+    </bezel>
+    <bezel element="screen">
+      <bounds x="0" y="0" width="4000" height="2250" />
+      <color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
+    </bezel>
+ </view>
+  </mamelayout>
+
+<!--
+
+- Artwork by: Orionsangel
+- Lay file by estefan3112
+
+-->

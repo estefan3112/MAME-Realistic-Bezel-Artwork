@@ -1,0 +1,50 @@
+<!-- pacman.lay -->
+
+<mamelayout version="2">
+
+  <element name="bezel">
+    <image file="pacman_bezel.png" />
+  </element>
+
+  <element name="bezel_noref">
+    <image file="pacman_bezel_noref.png" />
+  </element>
+  <element name="bezel_noref_screen">
+    <image file="pacman_bezel_noref_screen.png" />
+  </element>
+
+  <view name="Full Cabinet">
+    <screen index="0">
+      <bounds x="695" y="135" width="477" height="636" />
+    </screen>
+    <bezel element="bezel">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+  
+  <view name="Close Cabinet Scratch">
+    <screen index="0">
+      <bounds x="590" y="50" width="750" height="1000" />
+    </screen>
+    <bezel element="bezel_noref">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+    <bezel element="bezel_noref_screen">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+  <view name="Close Cabinet Clean">
+    <screen index="0">
+      <bounds x="590" y="50" width="750" height="1000" />
+    </screen>
+    <bezel element="bezel_noref">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
+</mamelayout>
+
+<!--
+- Bezel provided by Orionsangel
+- Lay file, bezel edit and split screen by estefan3112
+-->

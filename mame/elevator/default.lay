@@ -1,0 +1,109 @@
+<!-- elevator.lay -->
+
+<mamelayout version="2">
+
+  <element name="realbezel">
+    <image file="elevator_realbezel.png" />
+  </element>
+
+  <element name="screen">
+    <image file="elevator_screen.png" />
+  </element>
+
+  <element name="bezel">
+    <image file="elevator_bezel.png" />
+  </element>
+
+  <element name="bezel_noref">
+    <image file="elevator_bezel_noref.png" />
+  </element>
+
+  <element name="bezel_noshade">
+    <image file="elevator_bezel_noshade.png" />
+  </element>
+
+  <element name="screen_bezel">
+    <image file="horz_screen_bezel.png" />
+  </element>
+
+  <element name="screen_mask">
+    <image file="horz_screen_mask.png" />
+  </element>
+
+	<view name="Cabinet_Clear_Screen">
+		<screen index="0">
+			<bounds x="815" y="230" width="2370" height="1777" />
+		</screen>
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+	</view>
+	
+	<view name="Cabinet_Scratch_Screen">
+		<screen index="0">
+			<bounds x="815" y="230" width="2370" height="1777" />
+		</screen>
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+		</bezel>
+	</view>	
+ 
+  <view name="Cab Artwork">
+    <screen index="0">
+      <bounds x="420" y="135" width="1080" height="810" />
+    </screen>
+
+    <overlay element="screen_mask">
+      <bounds x="419" y="134" width="1082" height="812" />
+    </overlay>
+
+    <backdrop element="screen_bezel">
+      <bounds x="383" y="98" width="1154" height="884" />
+    </backdrop>
+
+    <bezel element="bezel">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
+  <view name="Cab Artwork (no reflection)">
+    <screen index="0">
+      <bounds x="420" y="135" width="1080" height="810" />
+    </screen>
+
+    <overlay element="screen_mask">
+      <bounds x="419" y="134" width="1082" height="812" />
+    </overlay>
+
+    <backdrop element="screen_bezel">
+      <bounds x="383" y="98" width="1154" height="884" />
+    </backdrop>
+
+    <bezel element="bezel_noref">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
+  <view name="Cab Artwork (no shading)">
+    <screen index="0">
+      <bounds x="420" y="135" width="1080" height="810" />
+    </screen>
+
+    <overlay element="screen_mask">
+      <bounds x="419" y="134" width="1082" height="812" />
+    </overlay>
+
+    <backdrop element="screen_bezel">
+      <bounds x="383" y="98" width="1154" height="884" />
+    </backdrop>
+
+    <bezel element="bezel_noshade">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
+</mamelayout>
