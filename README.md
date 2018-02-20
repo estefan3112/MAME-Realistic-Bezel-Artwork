@@ -1,6 +1,6 @@
 # MAME-Retroarch-Realistic-Bezel-Artwork
 
-Relaunch (WIP) in order to cover both MAME and Retroarch layout files (reset of GitHub history). You will find here:
+These Arcade Bezels provide the impression of (more or less heavily) used arcade machines, which I particularly like. This is a relaunch (WIP) for both MAME and Retroarch layout files (reset of GitHub history). You will find here:
 
 1. Artwork for the official MAME distribution, which is an adaptation of John Merrit's artworks for RetroArch/Retropie:
 https://forums.libretro.com/t/arcade-overlays/4084
@@ -10,7 +10,7 @@ These .lay files aim to be platform independent and bare bone (with exceptions, 
 
 2. Retroarch config files for the same overlays. This will be much more work, but is probably worth the effort. In Retroarch, sophisticated overlays like these need more configuration than in MAME. However, Retroarch MAME bears other huge advantages, in particular shader galore and other finetuning.
 
-Explained on my Blog for MAME on modern Macs (WIKI to follow here):
+Explained for MAME on my Blog for MAME on modern Macs:
 https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.html
 
 Main contributions of this repository are:
