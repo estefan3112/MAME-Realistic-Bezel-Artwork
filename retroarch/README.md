@@ -2,6 +2,8 @@
 
 Retroarch config files are quite different to MAME. This will be much more work, but is probably worth the effort. In Retroarch, sophisticated overlays like these need more configuration than in MAME. However, Retroarch MAME bears other advantages, in particular different Cores (including Final Burn Alpha), shader sophistication, and other finetuning.
 
+![alt text](../screenshots/1942.jpg "1942 with Overlay in Retroarch/Final Burn Alpha")
+
 Retroarch overlays come in two parts (three files per Game):
 
 1. Overlay and image cfg file need to be in the Overlay directory defined in Retroarch. This is different from system to system:
