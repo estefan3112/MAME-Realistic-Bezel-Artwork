@@ -1,8 +1,8 @@
 # Retroarch Bezel Artwork Explained
 
-Retroarch config files are quite different to MAME. This will be much more work, but is probably worth the effort. In Retroarch, sophisticated overlays like these need more configuration than in MAME. However, Retroarch MAME bears other huge advantages, in particular shader sophistication and other finetuning.
+Retroarch config files are quite different to MAME. This will be much more work, but is probably worth the effort. In Retroarch, sophisticated overlays like these need more configuration than in MAME. However, Retroarch MAME bears other advantages, in particular different Cores (including Final Burn Alpha), shader sophistication, and other finetuning.
 
-Retroarch overlays come in two parts:
+Retroarch overlays come in two parts (three files per Game):
 
 1. Overlay and image cfg file need to be in the Overlay directory defined in Retroarch. This is different from system to system:
 - Retropie: /opt/retropie/emulators/retroarch/overlays/ -> here create a directory called arcade-bezel-overlays
@@ -27,3 +27,10 @@ RECOMMENDED STEPS FOR USAGE:
 4. Put the Game-specific config files into the respective sub-diretory of the Core.
 
 The game should then immediately start with the Arcade Bezel. If nothing happens, recheck files (3 per game) and directories.
+
+MAC USERS NEED TO TAKE SPECIAL CARE:
+Since Overlays are stored in this configuration, be very careful when updating Retroarch on your Mac! Always have your Overlays at a safe place, since a new Retroarch Application Bundle will overwrite your old one, including your custom Overlays!
+
+
+
+
