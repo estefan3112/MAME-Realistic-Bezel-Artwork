@@ -13,7 +13,7 @@
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<screen index="0">
-			<bounds x="460" y="160" width="1000" height="750" />
+			<bounds x="470" y="160" width="1000" height="750" />
 		</screen> 
 	</view>
 
@@ -26,7 +26,7 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.3" />
 		</bezel>
 		<screen index="0">
-			<bounds x="460" y="160" width="1000" height="750" />
+			<bounds x="470" y="160" width="1000" height="750" />
 		</screen> 
 	</view>
 
@@ -34,7 +34,7 @@
 
 <!--
 
-- Artwork type: NMVA + Orionsangel
+- Artwork type: NMVA
 - Lay file by Mr. Do
 - Screen Split by estefan3112
 

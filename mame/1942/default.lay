@@ -1,145 +1,41 @@
 <!-- 1942.lay -->
 
 <mamelayout version="2">
-	<element name="bezel">
-		<image file="1942_bezel.png" />
-	</element>
 	<element name="bezel-real">
 		<image file="1942_bezel-real.png" />
-	</element>
-	<element name="bezel_noref">
-    	<image file="1942_bezel_noref.png" />
-  	</element>
-	<element name="bezel_noshade">
-    	<image file="1942_bezel_noshade.png" />
-  	</element>
-  	<element name="screen_bezel">
-    	<image file="vert_screen_bezel.png" />
-  	</element>
-  	<element name="screen_mask">
-    	<image file="vert_screen_mask.png" />
-  	</element>
-	<element name="cabinet">
-		<image file="Final_Arcade_Sega_Bally_Midway.png" />
-	</element>
-	<element name="screen">
-		<image file="Final_Arcade_Sega_Bally_Midway-screen.png" />
 	</element>
 	<element name="screen-real">
 		<image file="1942_bezel-real-screen.png" />
 	</element>
 
-
 	<view name="Real_Screen_Clear">
 		<screen index="0">
-			<bounds x="1300" y="140" width="1500" height="2000" />
+			<bounds x="812" y="87" width="937" height="1250" />
 		</screen>
 		<bezel element="bezel-real">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="2560" height="1440" />
 		</bezel>
 	</view>
 	<view name="Real-Screen_Scratch">
 		<screen index="0">
-			<bounds x="1300" y="140" width="1500" height="2000" />
+			<bounds x="812" y="87" width="937" height="1250" />
 		</screen>
 		<bezel element="bezel-real">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="2560" height="1440" />
 		</bezel>
 		<bezel element="screen-real">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="2560" height="1440" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</bezel>
 	</view>
-
-
-	<view name="Cabinet_Clear_Screen">
-		<screen index="0">
-			<bounds x="1250" y="140" width="1500" height="2000" />
-		</screen>
-		<bezel element="cabinet">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</bezel>
-	</view>
-	<view name="Cabinet_Scratch_Screen">
-		<screen index="0">
-			<bounds x="1250" y="140" width="1500" height="2000" />
-		</screen>
-		<bezel element="cabinet">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</bezel>
-		<bezel element="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
-		</bezel>
-	</view>
-
-  <view name="Cab Artwork">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-  <view name="Cab Artwork (no reflection)">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel_noref">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-  <view name="Cab Artwork (no shading)">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel_noshade">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-
-
-
 
 </mamelayout>
 
 <!--
 
 - Artwork type: Bezel
-- Bezel provided by BYOAC/CAG Artwork
-- Converted for MAME by Mr. Do
 - Lay file by Mr. Do
-- Additional realistic bezel by John Merrit 
+- Realistic bezel by John Merrit 
 - Artwork split and lay file update by estefan3112
 
 -->
