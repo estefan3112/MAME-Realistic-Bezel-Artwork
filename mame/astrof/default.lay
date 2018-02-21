@@ -10,22 +10,22 @@
 
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="1250" y="150" width="1518" height="2024" />
+			<bounds x="601" y="72" width="729" height="972" />
 		</screen>
 		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 	</view>
 
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="1250" y="150" width="1518" height="2024" />
+			<bounds x="601" y="72" width="729" height="972" />
 		</screen>
 		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<bezel element="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
 		</bezel>
 	</view>

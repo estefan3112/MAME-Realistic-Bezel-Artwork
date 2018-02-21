@@ -13,38 +13,56 @@
 	<element name="realbezel-orion">
     	<image file="elevator_nmva_ws.png" />
   	</element>
+
+	<element name="realbezel-orion-screen">
+    	<image file="elevator_nmva_screen.png" />
+  	</element>
   
 
 	<view name="Cabinet_Clear_Screen">
 		<screen index="0">
-			<bounds x="815" y="230" width="2370" height="1777" />
+			<bounds x="392" y="111" width="1312" height="984" />
 		</screen>
 		<bezel element="realbezel">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 	</view>
 	
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
-			<bounds x="815" y="230" width="2370" height="1777" />
+			<bounds x="392" y="111" width="1312" height="984" />
 		</screen>
 		<bezel element="realbezel">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<bezel element="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</bezel>
 	</view>
 
-	<view name="NMVA_Widescreen">
-		<bezel element="realbezel-orion">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</bezel>
+	<view name="NMVA_Clear Screen">
 		<screen index="0">
 			<bounds x="535" y="205" width="880" height="660" />
 		</screen> 
+		<bezel element="realbezel-orion">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 	</view>	
+
+	<view name="NMVA_Scratch Screen">
+		<screen index="0">
+			<bounds x="535" y="205" width="880" height="660" />
+		</screen> 
+		<bezel element="realbezel-orion">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="realbezel-orion-screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+		</bezel>
+	</view>	
+
  
 </mamelayout>
 

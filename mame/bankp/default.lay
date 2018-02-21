@@ -1,35 +1,57 @@
 <!-- bankp.lay -->
 
 <mamelayout version="2">
-
   <element name="bezel">
     <image file="bankp_bezel.png" />
   </element>
-
   <element name="screen_mask">
     <image file="horz_screen_mask.png" />
+  </element>
+  <element name="NMVA_Widescreen">
+    <image file="bankp_nmva_ws.png" />
+  </element>
+  <element name="NMVA_Screen">
+    <image file="bankp_nmva_screen.png" />
   </element>
 
   <view name="Cab Artwork">
     <screen index="0">
       <bounds x="490" y="125" width="940" height="705" />
     </screen>
-
     <overlay element="screen_mask">
       <bounds x="483" y="100" width="955" height="745" />
     </overlay>
-
     <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
+  <view name="NMVA_Clear Screen">
+    <screen index="0">
+      <bounds x="575" y="205" width="772" height="579" />
+    </screen>
+    <bezel element="NMVA_Widescreen">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
+  <view name="NMVA_Scratch Screen">
+    <screen index="0">
+      <bounds x="575" y="205" width="772" height="579" />
+    </screen>
+    <bezel element="NMVA_Widescreen">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+    <bezel element="NMVA_Screen">
+      <bounds x="0" y="0" width="1920" height="1080" />
+		<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
     </bezel>
   </view>
 
 </mamelayout>
 
 <!--
-
 - Artwork type: Bezel
-- Super-HiRes Bezel from arcadeartwork.org
-- Conversion for MAME and add-on of Arcade Hall Background by estefan3112
-
+- Bezels by estefan3112 and Orionsangel 
+- Lay file and artwork split by estefan3112
 -->
