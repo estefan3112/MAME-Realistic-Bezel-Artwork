@@ -10,7 +10,7 @@ Retroarch overlays come in two parts (three files per Game):
 - Retropie: /opt/retropie/emulators/retroarch/overlays/ -> here create a directory called arcade-bezel-overlays
 - MacOS: :/Contents/Resources/overlays/ -> this is in the Retroarch App Bundle, again, create this directory arcade-bezel-overlays
 - Windows: ...
-- Linux: ...
+- Linux: /User/.config/retroarch/overlay/ -> here create a directory called arcade-bezel-overlays
 The .cfg file configured here is then defined in the Game-specific config file. So if you change the above paths, you need to rewrite the path in the Game-specific config files as well.
 
 2. The Game-specific config file provides for the necessary parameters, in particular Overlay orientation and screen size, so this file is dependent on your screen resolution. This makes it less partable than MAME .lay files.
