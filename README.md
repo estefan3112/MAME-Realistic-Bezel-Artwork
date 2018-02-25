@@ -4,10 +4,12 @@ These Arcade Bezels provide the impression of (more or less heavily) used arcade
 
 ![alt text](screenshots/bankp.jpg "Bank Panic with Overlay in MAME")
 
-I try to build up a parallel repository for Retroarch overlays here:
+# Parallel Retroarch Repository:
+
+I plan to build up a parallel repository for Retroarch overlays here:
 https://github.com/estefan3112/Retroarch-Realistic-Bezel-Artwork/blob/master/README.md
 
-You will find here:
+# You will find here:
 
 1. Artwork for the official MAME distribution, which is an adaptation of John Merrit's artworks for RetroArch/Retropie:
 https://forums.libretro.com/t/arcade-overlays/4084
