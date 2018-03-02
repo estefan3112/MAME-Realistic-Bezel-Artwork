@@ -1,0 +1,54 @@
+<!-- klax.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="klax_nmva_ws.png" />
+	</element>
+	<element name="screen">
+		<image file="klax_nmva_screen.png" />
+	</element>
+	<element name="cabaret">
+		<image file="klax_cabaret.png" />
+	</element>
+
+	<view name="Realistic Cab Clear">
+		<screen index="0">
+			<bounds x="595" y="235" width="764" height="573" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view>
+	<view name="Realistic Cab Scratch">
+		<screen index="0">
+			<bounds x="595" y="235" width="764" height="573" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
+		</bezel>
+	</view>
+	<view name="Cabaret_Artwork">
+		<screen index="0">
+			<bounds x="585" y="364" width="2800" height="2100" />
+		</screen>
+		<bezel element="cabaret">
+			<bounds x="0" y="0" width="4000" height="2935" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Scanned upright bezel provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Scanned cabaret bezel provided by BYOAC/CAG Artwork
+- Vectorized by jcroach; color corrected by Ad_Enuff
+- Lay file by Mr. Do
+- Realistic Artwork by Orionsangel
+
+-->
