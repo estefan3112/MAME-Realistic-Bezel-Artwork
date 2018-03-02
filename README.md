@@ -21,7 +21,7 @@ These .lay files aim to be platform independent and bare bone (with exceptions, 
 Explained for MAME on my Blog for MAME on modern Macs:
 https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.html
 
-Main contributions of this repository are:
+# Main contributions of this repository are:
 
 (1) All bezels are based on 1080p (original contributions). Altough I scaled some of them up to 4000 x 2250 pixels, I will  revert back to 1080p because scaling up adds no value. If the screen resolution is bigger than 1080p, MAME automatically scales up.
 
