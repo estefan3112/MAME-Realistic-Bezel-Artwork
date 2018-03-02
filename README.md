@@ -1,6 +1,6 @@
 # MAME-Realistic-Bezel-Artwork
 
-These Arcade Bezels provide the impression of (more or less heavily) used arcade machines, which I particularly like. This is a relaunch (WIP) for both MAME and Retroarch layout files (reset of GitHub history). 
+These Arcade Bezels provide the impression of (more or less heavily) used arcade machines, which I particularly like. This is a relaunch (WIP) for platform-independent MAME layout files (reset of GitHub history). 
 
 ![alt text](screenshots/bankp.jpg "Bank Panic with Overlay in MAME")
 
@@ -23,11 +23,11 @@ https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.h
 
 Main contributions of this repository are:
 
-(1) All bezels are based on 1080p (original contributions). Altough I scaled some of them up to 4000 x 2250 pixels, I will probably revert back to 1080p because scaling up adds no value. Whereas MAME automatically scales up, Retroarch config files must be adapted manually to your screen resolution (see the subsection Readme's for further detail.
+(1) All bezels are based on 1080p (original contributions). Altough I scaled some of them up to 4000 x 2250 pixels, I will  revert back to 1080p because scaling up adds no value. If the screen resolution is bigger than 1080p, MAME automatically scales up.
 
-(2) MAME Bezels are split into cabinet and screen, so that you can switch between Clear Screen and Scratch Screen inside the game. Retroarch is different here. Again, the subsections Readme's will provide further details. 
+(2) MAME Bezels are typically split into cabinet and screen, so that you can switch between Clear Screen and Scratch Screen inside the game. A showcase for MAME's great bezel design. If the screen is too blurry or too clear for you, note that all screens have an alpha value, which you can edit in the default.lay file. Thereby you can make the screen more or less transparent. Apparently, this does not apply to the Clear Screen setting, where there is no screen overlay at all.
 
-(3) This repository aims to be platform independent. MAME .lay files should work all over, whereas Retroarch needs dedicated config files for every system. This will also explained in the subdirectory Readme's.
+(3) This repository aims to be platform independent. MAME .lay files should work all over, whereas Retroarch needs dedicated config files for every system. This will also explained in the parallel repository.
 
 A general note as regards Screen Size in these Layout files:
 As explained to me by John in a post, nearly all traditional Cabinet monitors are 4:3 aspect ratio. Even if the game provides for a different internal screen resolution, they were displayed in 4:3. Although this results in distortion in some games, only this seems to provide the view of the original.
