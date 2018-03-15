@@ -1,12 +1,6 @@
 <!-- centiped.lay -->
 
 <mamelayout version="2">
-	<element name="bezel">
-		<image file="centipede_bezel.png" />
-	</element>
-	<element name="bezel_e">
-		<image file="centipede_bezel_euro.png" />
-	</element>
 	<element name="cocktail">
 		<image file="centipede_cocktail.png" />
 	</element>
@@ -21,41 +15,23 @@
 	</element>
 	<view name="Clear Screen">
 		<bezel element="bezel_realistic">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<screen index="0">
-			<bounds x="1250" y="100" width="1520" height="2027" />
+			<bounds x="600" y="48" width="730" height="972" />
 		</screen>
 	</view>
 	<view name="Scratch Screen">
 		<bezel element="bezel_realistic">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<bezel element="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</bezel>
 		<screen index="0">
-			<bounds x="1250" y="100" width="1520" height="2027" />
+			<bounds x="600" y="48" width="730" height="972" />
 		</screen>
-	</view>
-	<view name="Upright_Artwork">
-		<bounds x="0" y="0" width="3951" height="3800" />
-		<screen index="0">
-			<bounds x="1055" y="790" width="1800" height="2400" />
-		</screen>
-		<bezel element="bezel">
-			<bounds x="0" y="0" width="3951" height="4000" />
-		</bezel>
-	</view>
-	<view name="Upright_Artwork_Euro">
-		<bounds x="0" y="0" width="3951" height="3800" />
-		<screen index="0">
-			<bounds x="1055" y="790" width="1800" height="2400" />
-		</screen>
-		<bezel element="bezel_e">
-			<bounds x="0" y="0" width="3951" height="4000" />
-		</bezel>
 	</view>
 	<view name="Cocktail_Artwork">
 		<screen index="0">
@@ -73,8 +49,6 @@
 <!--
 
 - Artwork type: Bezel
-- Scanned bezel provided by Mr. Do; on loan from rohan
-- Vectorized by jcroach
 - Scanned cocktail instructions provided by BYOAC / CAG artwork
 - Cocktail frame vectorized by jcroach
 - Lay file by Mr. Do
