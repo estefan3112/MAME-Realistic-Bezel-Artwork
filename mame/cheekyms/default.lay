@@ -1,9 +1,6 @@
 <!-- cheekyms.lay -->
 
 <mamelayout version="2">
-	<element name="bezel">
-		<image file="cheeky_mouse_bezel.png" />
-	</element>
 	<element name="bezel_realistic">
 		<image file="cheekyms_bezel.png" />
 	</element>
@@ -13,42 +10,32 @@
 
 	<view name="Clear Screen">
 		<bezel element="bezel_realistic">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<screen index="0">
-			<bounds x="1250" y="100" width="1500" height="2000" />
+			<bounds x="600" y="48" width="720" height="960" />
 		</screen>
 	</view>
 	<view name="Scratch Screen">
 		<bezel element="bezel_realistic">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<bezel element="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
 		</bezel>
 		<screen index="0">
-			<bounds x="1250" y="100" width="1500" height="2000" />
+			<bounds x="600" y="48" width="720" height="960" />
 		</screen>
 	</view>
 
-	<view name="Upright_Artwork">
-		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="3821" />
-		</bezel>
-		<screen index="0">
-			<bounds x="937" y="419" width="2100" height="2800" />
-		</screen>
-	</view>
 </mamelayout>
 
 <!--
 
 - Artwork type: Bezel
-- Scanned bezel provided by Gatinho
-- Cleaned for MAME by Gatinho
 - Lay file by Mr. Do
-- Additional realistic bezel by John Merrit 
+- Realistic bezel by John Merrit 
 - Artwork split and lay file update by estefan3112
 
 -->
