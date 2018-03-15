@@ -12,31 +12,31 @@
 	</element>
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="1270" y="150" width="1500" height="2000" />
+			<bounds x="604" y="72" width="729" height="972" />
 		</screen>
 		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
 		<bezel element="inst">
-			<bounds x="2950" y="890" width="511" height="900" />
+			<bounds x="1410" y="410" width="259" height="459" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
 	</view>	
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="1270" y="150" width="1500" height="2000" />
+			<bounds x="604" y="72" width="729" height="972" />
 		</screen>
 		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
 		<bezel element="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
 		</bezel>
 		<bezel element="inst">
-			<bounds x="2950" y="890" width="511" height="900" />
+			<bounds x="1410" y="410" width="259" height="459" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
 	</view>	
