@@ -31,26 +31,30 @@
 	
 	<view name="Cabinet_Clear_Screen">
 		<screen index="0">
-			<bounds x="815" y="230" width="2370" height="1777" />
+			<bounds x="391" y="110" width="1137" height="852" />
 		</screen>
 		<bezel element="cabinet">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="inst_vert">
+			<bounds x="184" y="624" width="213" height="295" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
 		</bezel>
 	</view>
 	
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
-			<bounds x="815" y="230" width="2370" height="1777" />
+			<bounds x="391" y="110" width="1137" height="852" />
 		</screen>
 		<bezel element="cabinet">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 		<bezel element="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</bezel>
 		<bezel element="inst_vert">
-			<bounds x="385" y="1300" width="445" height="616" />
+			<bounds x="184" y="624" width="213" height="295" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
 		</bezel>
 	</view>	
