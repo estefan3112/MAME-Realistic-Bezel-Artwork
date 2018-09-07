@@ -1,0 +1,36 @@
+<!-- aliensyn NMVA.lay -->	   
+	   
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="boothill.png" />
+	</element>
+	<element name="screen">
+		<image file="screen.png" />
+	</element>
+	<view name="Clear Screen">
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="290" y="85" width="1204" height="903" />
+		</screen> 
+	</view>
+	<view name="Scratch Screen">
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="290" y="85" width="1204" height="903" />
+		</screen> 
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: NMVA
+- Lay file and screen split by estefan3112
+
+-->
