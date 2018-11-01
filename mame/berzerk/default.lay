@@ -2,10 +2,16 @@
 
 <mamelayout version="2">
 	<element name="bezel_realistic">
-		<image file="berzerk.png" />
+		<image file="bezel.png" />
 	</element>
 	<element name="screen">
-		<image file="berzerk_screen.png" />
+		<image file="screen.png" />
+	</element>
+	<element name="bezel_nmva">
+		<image file="bezel_nmva.png" />
+	</element>
+	<element name="screen_nmva">
+		<image file="screen_nmva.png" />
 	</element>
 	<view name="Clear Screen">
 		<bezel element="bezel_realistic">
@@ -27,15 +33,31 @@
 			<bounds x="360" y="95" width="1196" height="897" />
 		</screen>
 	</view>
+	<view name="NMVA Clear Screen">
+		<bezel element="bezel_nmva">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<screen index="0">
+			<bounds x="530" y="205" width="836" height="627" />
+		</screen> 
+	</view>
+	<view name="NMVA Scratch Screen">
+		<bezel element="bezel_nmva">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen_nmva">
+		    <bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</bezel>
+		<screen index="0">
+			<bounds x="530" y="205" width="836" height="627" />
+		</screen> 
+	</view>
 </mamelayout>
 
 <!--
-- Artwork type: Bezel
-- Scanned bezel provided Mr. Do
-- On loan from Gene at www.vintagearcade.net
-- Converted for MAME by Ad_Enuff
 - Lay file by Mr. Do
-- Additional realistic bezel by John Merrit 
+- Realistic bezels by John Merrit and NMVA/Orionsangel 
 - Artwork split and lay file update by estefan3112
 
 
