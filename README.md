@@ -18,6 +18,8 @@ https://forums.libretro.com/t/arcade-overlays/4084
 https://forums.libretro.com/t/my-realistic-arcade-bezels/10604
 These .lay files aim to be platform independent and bare bone (with exceptions, where choice is nice).
 
+3. I also included a template default.lay file, from which it is easy to build new layouts.
+
 Explained for MAME on my Blog for MAME on modern Macs:
 https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.html
 
