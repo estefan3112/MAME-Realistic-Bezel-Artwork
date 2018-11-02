@@ -1,0 +1,54 @@
+<!-- 3wonders.lay -->
+
+<mamelayout version="2">
+	<element name="bezel-real">
+		<image file="bezel.png" />
+	</element>
+	<element name="screen-real">
+		<image file="screen.png" />
+	</element>
+	<element name="bezelA1">
+		<image file="Bezel - 16x9 with bezel (AlexDC22).png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="580" y="245" width="780" height="585" />
+		</screen>
+		<bezel element="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view>
+
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="580" y="245" width="780" height="585" />
+		</screen>
+		<bezel element="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
+		</bezel>
+	</view>
+
+	<view name="AlexDC22 16x9 with bezel">
+		<screen index="0">
+			<bounds x="397" y="57" width="1770" height="1326" />
+		</screen>
+		<bezel element="bezelA1">
+			<bounds x="0" y="0" width="2560" height="1440" />
+		</bezel>
+	</view>
+
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Realistic bezel by Orionsangel/NMVA
+- Artwork split and lay file update by estefan3112
+
+-->
