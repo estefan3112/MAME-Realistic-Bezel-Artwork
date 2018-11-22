@@ -23,7 +23,7 @@
 		</bezel>
 		<bezel element="nmva_scratches">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.3" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
 		</bezel>
 		<screen index="0">
 			<bounds x="470" y="160" width="1000" height="750" />
