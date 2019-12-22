@@ -1,0 +1,46 @@
+<!-- default.lay -->
+
+<mamelayout version="2">
+		<element name="4kbezel">
+			<image file="r-type.png" />
+		</element>
+		<element name="wbezel">
+			<image file="rtype169.png" />
+		</element>
+		<element name="wwbezel">
+			<image file="rtype1610.png" />
+		</element>
+		<view name="4k Cabinet">
+			<bezel element="4kbezel">
+				<bounds left="0" top="0" right="3840" bottom="2160" />
+			</bezel>
+			<screen index="0">
+				<bounds left="950" top="490" right="2880" bottom="1770" />
+			</screen>
+		</view>
+		<view name="Widescreen 16:10 Artwork">
+			<bezel element="wwbezel">
+				<bounds left="0" top="0" right="2560" bottom="1600" />
+			</bezel>
+			<screen index="0">
+				<bounds left="424.46" top="158.34" right="2135.54" bottom="1441.65" />
+			</screen>
+		</view>
+		<view name="Widescreen 16:9 Artwork">
+			<bezel element="wbezel">
+				<bounds left="0" top="0" right="2833" bottom="1600" />
+			</bezel>
+			<screen index="0">
+				<bounds left="436.5" top="65" right="2396.5" bottom="1535" />
+			</screen>
+		</view>
+</mamelayout>
+
+<!--
+- Screen: 384 x 256, translates into 1930 x 1280
+- Artwork type: Custom Widescreen, 4k Cabinet
+- Widescreen graphics by hausjam, 4k Cabinet by ImThat2
+- Based on graphics in official arcade artwork
+- Lay file by hausjam and estefan3112
+
+-->

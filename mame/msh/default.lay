@@ -1,0 +1,56 @@
+<!-- msh.lay -->
+
+<mamelayout version="2">
+<element name="4kbezel">
+	<image file="marvel-super-heroes.png" />
+</element>
+	<element name="bezel">
+		<image file="msh_bezel.png" />
+	</element>
+	<element name="inst">
+		<image file="msh_inst_1.png" />
+	</element>
+	<element name="inst2">
+		<image file="msh_inst_2.png" />
+	</element>
+	<view name="4k Cabinet">
+		<screen index="0">
+			<bounds x="990" y="320" width="1884" height="1413" />
+		</screen>
+		<bezel element="4kbezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</bezel>
+	</view>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="597" y="586" width="2800" height="2100" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3247" />
+		</bezel>
+	</view>
+	<view name="Inst_Card_JPN">
+		<screen index="0">
+			<bounds x="0" y="0" width="4000" height="3000" />
+		</screen>
+		<bezel element="inst">
+			<bounds x="-25" y="3050" width="2000" height="416" />
+		</bezel>
+		<bezel element="inst2">
+			<bounds x="2025" y="3050" width="2000" height="416" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!-- NOTE:  Bezel is cropped; still looking for a full-size one -->
+
+<!--
+
+- Artwork type: Bezel; Inst_Card
+- Scanned Bezel provided by BYOAC/CAG Artwork
+- Scanned instruction cards provided by Razoola at CPS2Shock
+- Converted for MAME by Mr. Do
+- 4k Cabinet by ImThat2
+- Lay file by Mr. Do and estefan3112
+
+-->

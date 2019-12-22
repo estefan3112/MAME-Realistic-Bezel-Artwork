@@ -1,0 +1,89 @@
+<!-- missile.lay -->
+
+<mamelayout version="2">
+<element name="bezel4k">
+	<image file="missile-command.png" />
+</element>
+<view name="4k Cabinet">
+	<screen index="0">
+		<bounds x="1120" y="500" width="1570" height="1178" />
+	</screen>
+	<bezel element="bezel4k">
+		<bounds x="0" y="0" width="3840" height="2160" />
+	</bezel>
+</view>
+	<element name="bezelK">
+		<image file="Bezel - missile (Krakerman).png" />
+	</element>
+	<view name="Krakerman 16x9">
+		<screen index="0">
+			<bounds x="310" y="63" width="1296" height="955" />
+		</screen>
+		<bezel element="bezelK">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view>
+	<element name="bezelG">
+		<image file="Bezel - 16x9 missile with IC's (Grizz).png" />
+	</element>
+	<view name="Grizz 16x9">
+		<screen index="0">
+			<bounds x="353" y="101" width="1147" height="840" />
+		</screen>
+		<bezel element="bezelG">
+			<bounds x="0" y="0" width="1852" height="1043" />
+		</bezel>
+	</view>
+	<element name="bezel">
+		<image file="missile_command_bezel.png" />
+	</element>
+	<element name="cocktail">
+		<image file="missile_command_cocktail.png" />
+	</element>
+	<element name="wood">
+		<image file="atari_cocktail_wood.png" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="925" y="693" width="2152" height="1614" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2902" />
+		</bezel>
+	</view>
+	<view name="Upright_Artwork_Zoomed">
+		<bounds x="611" y="127" width="2840" height="2463" />
+		<screen index="0">
+			<bounds x="611" y="325" width="2840" height="2130" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2902" />
+		</bezel>
+	</view>
+	<view name="Cocktail_Artwork">
+		<screen index="0">
+			<bounds x="1200" y="912" width="1600" height="1200" />
+		</screen>
+		<bezel element="wood">
+			<bounds x="0" y="0" width="4000" height="2990" />
+			<color alpha=".5" />
+		</bezel>
+		<bezel element="cocktail">
+			<bounds x="0" y="0" width="4000" height="2990" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Scanned bezel provided by Mr. Do
+- Scanned Atari cocktail frame provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Vectorized by jcroach
+- Instructions for cocktail provided by BYOAC/CAG Artwork
+- Vectorized by zorg
+- Additional 4k Cabinet by ImThat2
+- Lay file by Mr. Do and estefan3112
+
+-->

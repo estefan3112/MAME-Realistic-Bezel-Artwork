@@ -1,7 +1,10 @@
 <!-- blazstar.lay -->
 
 <mamelayout version="2">
-	
+
+<element name="4kBezel">
+	<image file="blazing-star.png" />
+</element>
 	<element name="Artwork">
 		<image file="art.png" />
 	</element>
@@ -9,6 +12,14 @@
 		<image file="screen.png" />
 	</element>
 
+	<view name="4k Cabinet">
+		<screen index="0">
+			<bounds x="990" y="320" width="1884" height="1413" />
+		</screen>
+		<bezel element="4kBezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</bezel>
+	</view>
 	<view name="Bezel Clear">
 		<screen index="0">
 			<bounds x="320" y="68" width="1280" height="960" />
@@ -29,5 +40,13 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</bezel>
 	</view>
-	
+
 </mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- 4k Cabinet by ImThat2
+- Lay file by unknown and estefan3112
+
+-->
