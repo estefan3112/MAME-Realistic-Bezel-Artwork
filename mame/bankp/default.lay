@@ -7,14 +7,8 @@
   <element name="screen_mask">
     <image file="horz_screen_mask.png" />
   </element>
-  <element name="NMVA_Widescreen">
-    <image file="bankp_nmva_ws.png" />
-  </element>
-  <element name="NMVA_Screen">
-    <image file="bankp_nmva_screen.png" />
-  </element>
 
-  <view name="Cab Artwork">
+  <view name="Realistic Cabinet">
     <screen index="0">
       <bounds x="490" y="125" width="940" height="705" />
     </screen>
@@ -26,32 +20,10 @@
     </bezel>
   </view>
 
-  <view name="NMVA_Clear Screen">
-    <screen index="0">
-      <bounds x="575" y="205" width="772" height="579" />
-    </screen>
-    <bezel element="NMVA_Widescreen">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-  <view name="NMVA_Scratch Screen">
-    <screen index="0">
-      <bounds x="575" y="205" width="772" height="579" />
-    </screen>
-    <bezel element="NMVA_Widescreen">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-    <bezel element="NMVA_Screen">
-      <bounds x="0" y="0" width="1920" height="1080" />
-		<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-    </bezel>
-  </view>
-
 </mamelayout>
 
 <!--
 - Artwork type: Bezel
-- Bezels by estefan3112 and Orionsangel 
-- Lay file and artwork split by estefan3112
+- Bezel by estefan3112
+- Lay file by estefan3112
 -->
