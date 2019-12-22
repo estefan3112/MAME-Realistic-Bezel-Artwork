@@ -2,6 +2,10 @@
 
 <mamelayout version="2">
 
+<element name="4kbezel">
+		<image file="ghouls.png" />
+	</element>
+
   <element name="realbezel">
     <image file="ghouls_realbezel.png" />
   </element>
@@ -30,6 +34,15 @@
     <image file="horz_screen_mask.png" />
   </element>
 
+  <view name="4k Cabinet">
+		<screen index="0">
+			<bounds x="965" y="426" width="1866" height="1428" />
+		</screen>
+		<bezel element="4kbezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</bezel>
+	</view>
+
 	<view name="Cabinet_Clear_Screen">
 		<screen index="0">
 			<bounds x="815" y="230" width="2370" height="1777" />
@@ -38,7 +51,7 @@
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</bezel>
 	</view>
-	
+
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
 			<bounds x="815" y="230" width="2370" height="1777" />
@@ -48,9 +61,9 @@
 		</bezel>
 		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.3" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
-	</view>	
+	</view>
 
   <view name="Cab Artwork">
     <screen index="0">
@@ -107,3 +120,12 @@
   </view>
 
 </mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- RealBezel by John Merrit
+- Original Bezel Scan
+- Lay file by ArsInvictusMedia
+
+-->
