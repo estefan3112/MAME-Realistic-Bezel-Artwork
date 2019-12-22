@@ -6,7 +6,7 @@
 	</element>
 	<element name="screen">
 		<image file="bublbobl-screen.png" />
-	</element>	
+	</element>
 	<element name="homebrew">
 		<image file="bubbob_bezel.png" />
 	</element>
@@ -28,7 +28,7 @@
 	<element name="screen_mask">
  	   <image file="horz_screen_mask.png" />
 	</element>
-	
+
 	<view name="Cabinet_Clear_Screen">
 		<screen index="0">
 			<bounds x="391" y="110" width="1137" height="852" />
@@ -41,7 +41,7 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
 		</bezel>
 	</view>
-	
+
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
 			<bounds x="391" y="110" width="1137" height="852" />
@@ -51,14 +51,14 @@
 		</bezel>
 		<bezel element="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
 		</bezel>
 		<bezel element="inst_vert">
 			<bounds x="184" y="624" width="213" height="295" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
 		</bezel>
-	</view>	
-  
+	</view>
+
   <view name="Cab Artwork (no reflection)">
     <screen index="0">
       <bounds x="420" y="135" width="1080" height="810" />
