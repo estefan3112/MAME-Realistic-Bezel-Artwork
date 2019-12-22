@@ -27,7 +27,7 @@
 		</bezel>
 		<bezel element="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
 		</bezel>
 		<screen index="0">
 			<bounds x="600" y="48" width="730" height="972" />
