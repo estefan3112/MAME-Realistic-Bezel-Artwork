@@ -1,0 +1,45 @@
+<!-- umk3.lay -->
+
+<mamelayout version="2">
+<element name="bezel">
+	<image file="umk3.png" />
+</element>
+	<element name="marquee">
+		<image file="mk3_marquee.png" />
+	</element>
+	<element name="inst">
+		<image file="mk3_instructions.png" />
+	</element>
+	<element name="marquee2">
+		<image file="umk3_marquee.png" />
+	</element>
+	<view name="4k Cabinet">
+		<screen index="0">
+			<bounds x="997" y="419" width="1842" height="1410" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</bezel>
+	</view>
+	<view name="Upright_Artwork">
+		<backdrop element="marquee2">
+			<bounds x="0" y="0" width="4000" height="1368" />
+		</backdrop>
+		<bezel element="inst">
+			<bounds x="500" y="4468" width="3000" height="784" />
+		</bezel>
+		<screen index="0">
+			<bounds x="0" y="1418" width="4000" height="3000" />
+		</screen>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Marquee, Inst. Card
+- Scanned marquee and inst. card provided by BYOAC / CAG Artwork
+- Converted for MAME by Mr. Do
+- 4k Cabinet by ArsInvictusMedia
+- Lay file by Mr. Do and ArsInvictusMedia
+
+-->

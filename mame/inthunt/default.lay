@@ -1,19 +1,29 @@
-<!-- In The Hunt NMVA.lay -->	   
-	   
+<!-- In The Hunt NMVA.lay -->
 <mamelayout version="2">
+<element name="bezel">
+	<image file="inthunt.png" />
+</element>
 	<element name="nmva_widescreen">
 		<image file="inthunt_nmva_ws.png"/>
 	</element>
 	<element name="screen">
 		<image file="inthunt_nmva_screen.png"/>
 	</element>
+	<view name="4k Cabinet">
+		<screen index="0">
+			<bounds x="1055" y="410" width="1725" height="1315" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</bezel>
+	</view>
 	<view name="Clear Screen">
 		<bezel element="nmva_widescreen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</bezel>
 		<screen index="0">
 			<bounds x="875" y="300" width="2244" height="1683" />
-		</screen> 
+		</screen>
 	</view>
 	<view name="Scratch Screen">
 		<bezel element="nmva_widescreen">
@@ -25,14 +35,14 @@
 		</bezel>
 		<screen index="0">
 			<bounds x="875" y="300" width="2244" height="1683" />
-		</screen> 
+		</screen>
 	</view>
 </mamelayout>
 
 <!--
 
-- Artwork type: NMVA
-- Lay file by Mr. Do
+- Artwork type: NMVA and ArsInvictusMedia
+- Lay file by Mr. Do and ArsInvictusMedia
 - Screen split by estefan3112
 
 -->
