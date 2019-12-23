@@ -1,6 +1,6 @@
 # MAME-Realistic-Bezel-Artwork
 
-These Arcade Bezels provide the impression of (more or less heavily) used arcade machines, which I particularly like. This is a relaunch (WIP) for platform-independent MAME layout files (reset of GitHub history). 
+These Arcade Bezels provide the impression of (more or less heavily) used arcade machines, which I particularly like. This is a relaunch (WIP) for platform-independent MAME layout files (reset of GitHub history).
 
 ![alt text](screenshots/bankp.jpg "Bank Panic with Overlay in MAME")
 
@@ -35,11 +35,11 @@ https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.h
 
 (3) This repository aims to be platform independent. MAME .lay files should work all over, whereas Retroarch needs dedicated config files for every system. This will also explained in the parallel repository.
 
-(4) I also started to smoothen screen borders. Example is the new Berzerk overlay upload as of 21 November 2018, more recently Arkanoid. If John Merrit's bezels require refinement, then these would be the screen borders. See yourself. But this will take a while, it's a lot of work.
+(4) I started to smoothen screen borders. All bezels including letter E are smoothened. If John Merrit's bezels require refinement, then these are the screen borders. See yourself. But this will take a while, it's a lot of work in Gimp, but very worth the effort!
 
 A general note as regards Screen Size in these Layout files:
 As explained to me by John in a post, nearly all traditional Cabinet monitors are 4:3 aspect ratio. Even if the game provides for a different internal screen resolution, they were displayed in 4:3. Although this results in distortion in some games, only this seems to provide the view of the original.
 
 This is work in progress, more artwork to arrive. It takes very long because I am doing a lot of testing before I am satisfied with the results.
 
-ALL WORK DONE HERE IS LICENSED UNDER GPL FOR FURTHER FREE USE. 
+ALL WORK DONE HERE IS LICENSED UNDER GPL FOR FURTHER FREE USE.
