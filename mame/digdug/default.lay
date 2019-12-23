@@ -52,7 +52,7 @@
 		</bezel>
 		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
 	</view>
 	<view name="XBLA_Widescreen">

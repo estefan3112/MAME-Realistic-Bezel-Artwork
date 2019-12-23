@@ -10,7 +10,7 @@
 
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="xxx" y="yy" width="www" height="hhh" />
+			<bounds x="580" y="50" width="www" height="hhh" />
 		</screen>
 		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
@@ -19,7 +19,7 @@
 
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="xxx" y="yy" width="www" height="hhh" />
+			<bounds x="580" y="50" width="www" height="hhh" />
 		</screen>
 		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />

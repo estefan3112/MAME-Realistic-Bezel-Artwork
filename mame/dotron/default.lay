@@ -1,42 +1,94 @@
 <!-- dotron.lay -->
 
 <mamelayout version="2">
-	<element name="bezel-real">
-		<image file="bezel.png" />
+	<element name="backdrop" defstate="1">
+		<image file="dotron_backdrop.png" alphafile="dotmask.png" state="1" />
 	</element>
-	<element name="screen-real">
-		<image file="screen.png" />
+	<element name="backdrop2">
+		<image file="dotron_backdrop.png" />
+	</element>
+	<element name="mask">
+		<image file="dotmask1.png" />
+	</element>
+	<element name="outer">
+		<image file="dot_outer_bezel.png" />
+	</element>
+	<element name="inner">
+		<image file="dot_inner_bezel.png" />
+	</element>
+	<element name="frame">
+		<image file="dot_inner_frame.png" />
+	</element>
+	<element name="realbezel">
+		<image file="dotron_realbezel.png" />
+	</element>
+	<element name="screen">
+		<image file="dotron_screen.png" />
 	</element>
 
-	<view name="Clear Screen">
+	<view name="Upright_Artwork">
+		<bounds x="0" y="0" width="4000" height="2950" />
 		<screen index="0">
-			<bounds x="315" y="60" width="1285" height="963" />
+			<bounds x="890" y="591" width="2196" height="1647" />
 		</screen>
-		<bezel element="bezel-real">
-			<bounds x="0" y="0" width="1920" height="1080" />
+		<backdrop name="backlight" element="backdrop">
+			<bounds x="513" y="97" width="2916" height="2186" />
+		</backdrop>
+		<bezel element="frame">
+			<bounds x="828" y="479" width="2320" height="1875" />
+			<color alpha="0.5" />
+		</bezel>
+		<bezel element="inner">
+			<bounds x="300" y="0" width="3400" height="2568" />
+		</bezel>
+		<bezel element="outer">
+			<bounds x="0" y="0" width="4000" height="3016" />
 		</bezel>
 	</view>
-
-	<view name="Scratch Screen">
+	<view name="Upright_Artwork_NoMask">
+		<bounds x="0" y="0" width="4000" height="2950" />
 		<screen index="0">
-			<bounds x="315" y="60" width="1285" height="963" />
+			<bounds x="890" y="591" width="2196" height="1647" />
 		</screen>
-		<bezel element="bezel-real">
-			<bounds x="0" y="0" width="1920" height="1080" />
+		<backdrop element="backdrop2">
+			<bounds x="513" y="97" width="2916" height="2186" />
+		</backdrop>
+		<bezel element="frame">
+			<bounds x="828" y="479" width="2320" height="1875" />
+			<color alpha="0.8" />
 		</bezel>
-		<bezel element="screen-real">
-			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		<bezel element="inner">
+			<bounds x="300" y="0" width="3400" height="2568" />
+		</bezel>
+		<bezel element="outer">
+			<bounds x="0" y="0" width="4000" height="3016" />
 		</bezel>
 	</view>
-
+	<view name="Real Cab">
+		<screen index="0">
+			<bounds x="380" y="55" width="1230" height="930" />
+		</screen>
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<backdrop element="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+		</backdrop>
+	</view>
 </mamelayout>
 
 <!--
 
-- Artwork type: Bezel
-- This is my default MAME Artwork Layout File 
-- Realistic bezel by John Merrit 
-- Artwork split and lay file update by estefan3112
+- Artwork type: Bezel; Backdrop
+- Photographed backdrop provided by xiaou2
+- Converted for MAME by xiaou2
+- Scanned inner bezel provided by CAG / BYOAC Artwork
+- Scanned outer bezel provided by Mr. Do
+- On loan from Mark B. from Surfside Music and Collectibles
+- Bezels vectorized by jcroach; color corrected by Ad_Enuff
+- Scanned inner frame provided by and vectored by jcroach
+- Real Cabinet done by John Merrit
+- Lay file by Mr. Do and edited by estefan3112
 
 -->
