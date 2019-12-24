@@ -10,26 +10,6 @@
     <image file="galaxian_screen.png" />
   </element>
 
-  <element name="bezel">
-    <image file="galaxian_bezel.png" />
-  </element>
-
-  <element name="bezel_noref">
-    <image file="galaxian_bezel_noref.png" />
-  </element>
-
-  <element name="bezel_noshade">
-    <image file="galaxian_bezel_noshade.png" />
-  </element>
-
-  <element name="screen_bezel">
-    <image file="vert_screen_bezel.png" />
-  </element>
-
-  <element name="screen_mask">
-    <image file="vert_screen_mask.png" />
-  </element>
-
 	<view name="Cabinet_Clear_Screen">
 		<screen index="0">
 			<bounds x="1250" y="150" width="1475" height="1966" />
@@ -47,63 +27,8 @@
 		</bezel>
 		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.3" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</bezel>
 	</view>
-
-
-  <view name="Cab Artwork">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-  <view name="Cab Artwork (no reflection)">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel_noref">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-  <view name="Cab Artwork (no shading)">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel_noshade">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
 
 </mamelayout>
