@@ -1,5 +1,5 @@
-<!-- junglek NMVA.lay -->	   
-	   
+<!-- junglek NMVA.lay -->
+
 <mamelayout version="2">
 	<element name="nmva_widescreen">
 		<image file="junglek_nmva_ws.png" />
@@ -14,7 +14,7 @@
 		</bezel>
 		<screen index="0">
 			<bounds x="575" y="325" width="776" height="582" />
-		</screen> 
+		</screen>
 	</view>
 	<view name="NMVA_Scratchscreen">
 		<bezel element="nmva_widescreen">
@@ -25,7 +25,8 @@
 		</bezel>
 		<screen index="0">
 			<bounds x="575" y="325" width="776" height="582" />
-		</screen> 
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+		</screen>
 	</view>
 </mamelayout>
 
