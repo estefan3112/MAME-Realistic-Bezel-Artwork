@@ -10,18 +10,6 @@
     <image file="frogger_screen.png" />
   </element>
 
-  <element name="bezel">
-    <image file="frogger_bezel.png" />
-  </element>
-
-  <element name="bezel_noref">
-    <image file="frogger_bezel_noref.png" />
-  </element>
-
-  <element name="bezel_noshade">
-    <image file="frogger_bezel_noshade.png" />
-  </element>
-
   <element name="screen_bezel">
     <image file="vert_screen_bezel.png" />
   </element>
@@ -29,7 +17,7 @@
   <element name="screen_mask">
     <image file="vert_screen_mask.png" />
   </element>
-  
+
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="1270" y="170" width="1450" height="1933" />
@@ -38,75 +26,26 @@
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
-	</view>	
+	</view>
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="1270" y="170" width="1450" height="1933" />
 		</screen>
 		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
 		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.4" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
-	</view>	
-
-
-
-  <view name="Cab Artwork">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-  <view name="Cab Artwork (no reflection)">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel_noref">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
-  <view name="Cab Artwork (no shading)">
-    <screen index="0">
-      <bounds x="555" y="0" width="810" height="1080" />
-    </screen>
-
-    <overlay element="screen_mask">
-      <bounds x="554" y="0" width="812" height="1080" />
-    </overlay>
-
-    <backdrop element="screen_bezel">
-      <bounds x="518" y="0" width="884" height="1080" />
-    </backdrop>
-
-    <bezel element="bezel_noshade">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </bezel>
-  </view>
-
+	</view>
 </mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- This is my default MAME Artwork Layout File
+- Realistic bezel by John Merrit
+- Artwork split and lay file update by estefan3112
+
+-->
