@@ -19,7 +19,7 @@ MAME .lay files have some unique possibilities, which make them a very good choi
 (3) The MAME NEOGEO Artwork is a specialty: It is attached to every Neogeo Game on top of its own screens. This is damn cool, because you can always revert to a cool generic NEOGEO Cabinet with every single NEOGEO game. Also here, I added two cabinets, one with a Scrach Screen and one with a Clear Screen.
 
 A note as regards Screen Size in these Layout files:
-As explained to me by John in a post, all traditional Cabinet monitors are 4:3 aspect ratio. Even if the game provides for a different internal screen resolution, they were displayed in 4:3. Although this results in distortion in some games, only this seems to provide the view of the original.
+As explained by John in a post, all traditional Cabinet monitors are 4:3 aspect ratio. Even if the game provides for a different internal screen resolution according to the tech specs, they were displayed in 4:3. Although this results in distortion in some games, only this seems to provide the view of the original. Some of the bezels do not respect 4:3, and there I need to compromise.
 
 HOW To USE:
 
