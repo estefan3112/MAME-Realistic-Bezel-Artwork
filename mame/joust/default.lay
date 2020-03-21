@@ -4,6 +4,9 @@
 <element name="4kbezel">
 	<image file="joust.png" />
 </element>
+<element name="screen-real">
+	<image file="screen.png" />
+</element>
 	<element name="bezel">
 		<image file="joust_bezel.png" />
 	</element>
@@ -13,32 +16,34 @@
 	<element name="inst_uk">
 		<image file="joust_inst_uk.png" />
 	</element>
-	<view name="4k Cabinet">
+	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="1010" y="540" width="1812" height="1349" />
+			<bounds x="375" y="65" width="1170" height="960" />
 		</screen>
 		<bezel element="4kbezel">
-			<bounds x="0" y="0" width="3840" height="2160" />
+			<bounds x="0" y="0" width="1920" height="1080" />
 		</bezel>
 	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="375" y="65" width="1170" height="960" />
+		</screen>
+		<bezel element="4kbezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</bezel>
+	</view>
+
+
 	<view name="Upright_Artwork_US">
 		<bounds x="0" y="0" width="4000" height="3250" />
 		<screen index="0">
 			<bounds x="743" y="654" width="2520" height="1890" />
 		</screen>
 		<bezel element="inst_us">
-			<bounds x="3404" y="971" width="504" height="835" />
-		</bezel>
-		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="3554" />
-		</bezel>
-	</view>
-	<view name="Upright_Artwork_UK">
-		<bounds x="0" y="0" width="4000" height="3250" />
-		<screen index="0">
-			<bounds x="743" y="654" width="2520" height="1890" />
-		</screen>
-		<bezel element="inst_uk">
 			<bounds x="3404" y="971" width="504" height="835" />
 		</bezel>
 		<bezel element="bezel">
@@ -53,7 +58,7 @@
 - Scanned bezel provided by anoid
 - Vectorized by Zorg; color corrected by Ad_Enuff
 - Inst_Card provided by CAG / BYOAC Artwork
-- 4k Cabinet by ArsInvictusMedia
+- Realistic Bezel by John Meritt
 - Lay file by Mr. Do and estefan3112
 
 -->
