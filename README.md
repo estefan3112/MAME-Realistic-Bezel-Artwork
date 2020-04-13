@@ -8,11 +8,14 @@ These Arcade Bezels provide the impression of (more or less heavily) used arcade
 
 I plan to build up a parallel repository for Retroarch overlays here:
 https://github.com/estefan3112/Retroarch-Realistic-Bezel-Artwork/blob/master/README.md
+They contain a full set of John Merrit's Realistic Bezels that he originally produced for Retroarch.
 
 # You will find here:
 
 1. Artwork for the official MAME distribution, which is an adaptation of John Merrit's artworks for RetroArch/Retropie:
 https://forums.libretro.com/t/arcade-overlays/4084
+
+NOTE: I will not transfer all of John Merrit's artwork for Retroach at any time, but I will pick and choose the best ones.
 
 2. Further artwork to arrive from Orionsangel as discussed here:
 https://forums.libretro.com/t/my-realistic-arcade-bezels/10604
@@ -29,7 +32,7 @@ https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.h
 
 # Main contributions of this repository are:
 
-(1) All bezels are based on 1080p (original contributions). Altough I scaled some of them up to 4000 x 2250 pixels, I will  revert back to 1080p because scaling up adds no value. If the screen resolution is bigger than 1080p, MAME automatically scales up.
+(1) All bezels are based on the original contribution, mostly 1080p. No need for adjustments, since MAME automatically scales artwork.
 
 (2) MAME Bezels are typically split into cabinet and screen, so that you can switch between Clear Screen and Scratch Screen inside the game. A showcase for MAME's great bezel design. If the screen is too blurry or too clear for you, note that all screens have an alpha value, which you can edit in the default.lay file. Thereby you can make the screen more or less transparent. Apparently, this does not apply to the Clear Screen setting, where there is no screen overlay at all.
 
