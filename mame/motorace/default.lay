@@ -1,0 +1,62 @@
+<!-- motorace.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="motorace_bezel.png" />
+	</element>
+	<element name="inst">
+		<image file="motorace_instructions.png" />
+	</element>
+	<element name="bezel-real">
+		<image file="bezel.png" />
+	</element>
+	<element name="screen-real">
+		<image file="screen.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="620" y="100" width="681" height="908" />
+		</screen>
+		<bezel element="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="620" y="100" width="681" height="908" />
+		</screen>
+		<bezel element="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</bezel>
+	</view>
+
+	<view name="Upright_Artwork">
+		<bounds x="0" y="0" width="4000" height="3400" />
+		<screen index="0">
+			<bounds x="1023" y="493" width="2010" height="2680" />
+		</screen>
+		<bezel element="inst">
+			<bounds x="3265" y="1910" width="574" height="820" />
+		</bezel>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3570" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Scanned bezel provided by BYOAC / CAG Artwork
+- Inst. card based on photo from Derek's Basement Arcade
+- Converted for MAME by Mr. Do
+- Lay file by Mr. Do
+- Realistic bezel by John Merrit
+- Artwork split and lay file update by estefan3112
+
+-->
