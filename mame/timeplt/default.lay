@@ -1,20 +1,15 @@
 <!-- timeplt.lay -->
 
 <mamelayout version="2">
-
   <element name="bezel">
     <image file="timeplt_bezel.png" />
   </element>
-
   <element name="screen">
     <image file="timeplt_screen.png" />
   </element>
-
-
   <element name="screen_bezel">
     <image file="vert_screen_bezel.png" />
   </element>
-
   <element name="screen_mask">
     <image file="vert_screen_mask.png" />
   </element>
@@ -23,10 +18,6 @@
     <screen index="0">
       <bounds x="690" y="180" width="522" height="696" />
     </screen>
-    <overlay element="screen_mask">
-      <bounds x="690" y="180" width="522" height="696" />
-    </overlay>
-
     <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
     </bezel>
@@ -36,9 +27,6 @@
     <screen index="0">
       <bounds x="690" y="180" width="522" height="696" />
     </screen>
-    <overlay element="screen_mask">
-      <bounds x="690" y="180" width="522" height="696" />
-    </overlay>
     <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
     </bezel>
@@ -53,11 +41,9 @@
     <screen index="0">
       <bounds x="555" y="0" width="810" height="1080" />
     </screen>
-
     <overlay element="screen_mask">
       <bounds x="554" y="0" width="812" height="1080" />
     </overlay>
-
     <backdrop element="screen_bezel">
       <bounds x="518" y="0" width="884" height="1080" />
     </backdrop>
@@ -71,7 +57,5 @@
 - Lay file by Orionsangel
 - Realistic bezel by Orionsangel 
 - Artwork split and lay file update by estefan3112
-
--   <bounds x="555" y="0" width="810" height="1080" />
 
 -->
