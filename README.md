@@ -14,7 +14,8 @@ They contain a full set of John Merrit's Realistic Bezels that he originally pro
 
 1. Artwork for the official MAME distribution, which is an adaptation of John Merrit's artworks for RetroArch/Retropie:
 https://forums.libretro.com/t/arcade-overlays/4084
-NOTE: I will not transfer all of John Merrit's artwork for Retroach at any time, but I do pick and choose.
+
+NOTE: I will not transfer all of John Merrit's artwork for Retroach at any time, but I will pick and choose the best ones.
 
 2. Further artwork to arrive from Orionsangel as discussed here:
 https://forums.libretro.com/t/my-realistic-arcade-bezels/10604
