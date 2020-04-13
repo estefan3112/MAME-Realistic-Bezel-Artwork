@@ -8,11 +8,13 @@ These Arcade Bezels provide the impression of (more or less heavily) used arcade
 
 I plan to build up a parallel repository for Retroarch overlays here:
 https://github.com/estefan3112/Retroarch-Realistic-Bezel-Artwork/blob/master/README.md
+They contain a full set of John Merrit's Realistic Bezels that he originally produced for Retroarch.
 
 # You will find here:
 
 1. Artwork for the official MAME distribution, which is an adaptation of John Merrit's artworks for RetroArch/Retropie:
 https://forums.libretro.com/t/arcade-overlays/4084
+NOTE: I will not transfer all of John Merrit's artwork for Retroach at any time, but I do pick and choose.
 
 2. Further artwork to arrive from Orionsangel as discussed here:
 https://forums.libretro.com/t/my-realistic-arcade-bezels/10604
