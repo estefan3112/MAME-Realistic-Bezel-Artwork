@@ -35,7 +35,7 @@ https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.h
 
 (3) This repository aims to be platform independent. MAME .lay files should work all over, whereas Retroarch needs dedicated config files for every system. This will also explained in the parallel repository.
 
-(4) I am nearly finished with smoothening the screen borders. If John Merrit's bezels require refinement, then these are the screen borders. See yourself.
+(4) I smoothened the screen borders - all that's online! If John Merrit's bezels require refinement, then these are the screen borders. See yourself.
 
 A general note as regards Screen Size in these Layout files:
 As explained to me by John in a post, nearly all traditional Cabinet monitors are 4:3 aspect ratio. Even if the game provides for a different internal screen resolution, they were displayed in 4:3. Although this results in distortion in some games, only this seems to provide the view of the original. Where the bezel artwork does not respect the 4:3 aspect ratio, I needed to compromise.
