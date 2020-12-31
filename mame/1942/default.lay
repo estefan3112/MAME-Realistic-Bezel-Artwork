@@ -12,22 +12,22 @@
 		<screen index="0">
 			<bounds x="640" y="70" width="699" height="932" />
 		</screen>
-		<bezel element="bezel-real">
+		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</bezel>
+		</element>
 	</view>
 
 	<view name="Real_Screen_Scratch">
 		<screen index="0">
 			<bounds x="640" y="70" width="699" height="932" />
 		</screen>
-		<bezel element="bezel-real">
+		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</bezel>
-		<bezel element="screen-real">
+		</element>
+		<element ref="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
-		</bezel>
+		</element>
 	</view>
 
 </mamelayout>
