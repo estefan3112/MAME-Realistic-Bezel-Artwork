@@ -13,25 +13,25 @@
 		<screen index="0">
 			<bounds x="1100" y="445" width="1645" height="1290" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
-		</element>
+		</bezel>
 	</view>
 	<view name="NMVA Clear Screen">
-		<element ref="nmva_widescreen">
+		<bezel element="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 		<screen index="0">
 			<bounds x="515" y="240" width="908" height="681" />
 		</screen>
 	</view>
 	<view name="NMVA Scratch Screen">
-		<element ref="nmva_widescreen">
+		<bezel element="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="nmva_screen">
+		</bezel>
+		<bezel element="nmva_screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 		<screen index="0">
 			<bounds x="515" y="240" width="908" height="681" />
 		</screen>

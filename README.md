@@ -1,5 +1,7 @@
 # MAME-Realistic-Bezel-Artwork
 
+Important Update below as of December 2020!
+
 These Arcade Bezels provide the impression of (more or less heavily) used arcade machines, which I particularly like. This is a relaunch (WIP) for platform-independent MAME layout files (reset of GitHub history).
 
 ![alt text](screenshots/bankp.jpg "Bank Panic with Overlay in MAME")
@@ -47,8 +49,9 @@ As explained to me by John in a post, nearly all traditional Cabinet monitors ar
 
 Throughout 2020, the MAME layout format has been revamped. As of version 0.225, the 'old' layout files produce a warning in the Terminal, such as
 "Warning: layout view 'Upright_Artwork' contains deprecated bezel element."
-The required updates in my layout files are minor, and I will update gradually all layout files. For MAME versions < v0.225, I will retain the old version under the filename 'default.layold', which you obviously have to rename to 'default.lay' in order to work.
+The required updates in my layout files are trivial, and I will update gradually all layout files. For MAME versions < v0.225, I will retain the old version under the filename 'default.old-lay', which you obviously have to rename to 'default.lay' in order to work.
 
+# W.I.P. - so stay tuned :)
 
 This is work in progress, more artwork to arrive. It takes very long because I am doing a lot of testing before I am satisfied with the results.
 

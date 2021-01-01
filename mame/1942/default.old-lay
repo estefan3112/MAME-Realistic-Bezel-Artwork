@@ -1,32 +1,32 @@
-<!-- insert game name.lay -->
+<!-- 1942.lay -->
 
 <mamelayout version="2">
 	<element name="bezel-real">
-		<image file="bezel.png" />
+		<image file="1942_bezel-real.png" />
 	</element>
 	<element name="screen-real">
-		<image file="screen.png" />
+		<image file="1942_bezel-real-screen.png" />
 	</element>
 
-	<view name="Clear Screen">
+	<view name="Real_Screen_Clear">
 		<screen index="0">
-			<bounds x="580" y="50" width="www" height="hhh" />
+			<bounds x="640" y="70" width="699" height="932" />
 		</screen>
-		<element ref="bezel-real">
+		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 	</view>
 
-	<view name="Scratch Screen">
+	<view name="Real_Screen_Scratch">
 		<screen index="0">
-			<bounds x="580" y="50" width="www" height="hhh" />
+			<bounds x="640" y="70" width="699" height="932" />
 		</screen>
-		<element ref="bezel-real">
+		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 		<bezel element="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
 		</bezel>
 	</view>
 
@@ -35,7 +35,7 @@
 <!--
 
 - Artwork type: Bezel
-- This is my default MAME Artwork Layout File as of MAME v 0.225
+- Lay file by Mr. Do
 - Realistic bezel by John Merrit
 - Artwork split and lay file update by estefan3112
 
