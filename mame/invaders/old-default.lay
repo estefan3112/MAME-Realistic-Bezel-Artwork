@@ -84,7 +84,6 @@
 	<element name="bezel_real">
 		<image file="invaders_real.png" />
 	</element>
-
 	<view name="Upright_Artwork_Midway">
 		<bezel element="bezel_m">
 			<bounds x="0" y="0" width="3871" height="4000" />
@@ -100,7 +99,6 @@
 			<bounds x="1300" y="1365" width="1308" height="1744" />
 		</overlay>
 	</view>
-
 	<view name="Upright_Artwork_Taito">
 		<bezel element="bezel_t">
 			<bounds x="0" y="0" width="4000" height="3901" />
@@ -116,7 +114,6 @@
 			<bounds x="1389" y="1519" width="1350" height="1800" />
 		</overlay>
 	</view>
-
 	<view name="Cocktail_Inst_JPN">
 		<bezel element="cktl_overlay">
 			<bounds x="0" y="0" width="3750" height="5000" />
@@ -136,7 +133,6 @@
 			<orientation rotate="180" />
 		</bezel>
 	</view>
-
 	<view name="Cabaret_Artwork">
 		<bezel element="wood">
 			<bounds x="0" y="0" width="4000" height="3304" />
@@ -155,7 +151,6 @@
 			<color alpha="0.1" />
 		</bezel>
 	</view>
-
 	<view name="Cocktail_Inst_EURO">
 		<bezel element="cktl_overlay">
 			<bounds x="0" y="0" width="3750" height="5000" />
@@ -175,7 +170,6 @@
 			<orientation rotate="180" />
 		</bezel>
 	</view>
-
 	<view name="Cocktail_Inst_US">
 		<bezel element="cktl_overlay">
 			<bounds x="0" y="0" width="3750" height="5000" />
@@ -195,7 +189,6 @@
 			<orientation rotate="180" />
 		</bezel>
 	</view>
-
 	<view name="Midway_Cocktail_Artwork">
 		<screen index="0">
 			<bounds x="606" y="980" width="1530" height="2040" />
@@ -217,7 +210,6 @@
 			<bounds x="1279" y="467" width="138" height="45" />
 		</bezel>
 	</view>
-
 	<view name="Midway_Cocktail_Artwork_2">
 		<screen index="0">
 			<bounds x="606" y="980" width="1530" height="2040" />
@@ -239,14 +231,13 @@
 			<bounds x="1277" y="467" width="140" height="45" />
 		</bezel>
 	</view>
-
 	<view name="Realistic Bezel">
 		<screen index="0">
 			<bounds x="340" y="90" width="1148" height="861" />
 		</screen>
-		<element ref="bezel_real">
+		<bezel element="bezel_real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -274,7 +265,7 @@
 - Scanned cocktail bezel provided by Mr. Do
 - On loan from Gene at www.vintagearcade.net
 - Cleaned by Kiltron
-- Lay file by Mr. Do - conversion to new format incomplete
+- Lay file by Mr. Do - old layout format
 - Additional Realistic Bezel by John Merrit
 
 -->

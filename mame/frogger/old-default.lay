@@ -22,30 +22,29 @@
 		<screen index="0">
 			<bounds x="1270" y="170" width="1450" height="1933" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="1270" y="170" width="1450" height="1933" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
 <!--
 
 - Artwork type: Bezel
-- This is my default MAME Artwork Layout File
 - Realistic bezel by John Merrit
-- Artwork split and lay file update by estefan3112
+- Artwork split and lay file update by estefan3112 - old layout format
 
 -->

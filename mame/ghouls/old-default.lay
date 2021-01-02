@@ -2,7 +2,7 @@
 
 <mamelayout version="2">
 
-	<element name="4kbezel">
+<element name="4kbezel">
 		<image file="ghouls.png" />
 	</element>
 
@@ -18,31 +18,31 @@
 		<screen index="0">
 			<bounds x="965" y="426" width="1866" height="1428" />
 		</screen>
-		<element ref="4kbezel">
+		<bezel element="4kbezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Cabinet_Clear_Screen">
 		<screen index="0">
 			<bounds x="815" y="230" width="2370" height="1777" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
 			<bounds x="815" y="230" width="2370" height="1777" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
 	</view>
 
 </mamelayout>
@@ -51,7 +51,6 @@
 
 - Artwork type: Bezel
 - RealBezel by John Merrit
-- Original Bezel Scan
-- Lay file by ArsInvictusMedia
+- Lay file by ArsInvictusMedia - old layout format
 
 -->

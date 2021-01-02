@@ -9,24 +9,24 @@
 	</element>
 
 	<view name="NMVA_Clearscreen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="575" y="325" width="776" height="582" />
 		</screen>
-		<element ref="nmva_widescreen">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 	<view name="NMVA_Scratchscreen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="nmva_screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="575" y="325" width="776" height="582" />
-		</screen>
-		<element ref="nmva_widescreen">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="nmva_screen">
-			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
-		</element>
+		</screen>
 	</view>
 </mamelayout>
 

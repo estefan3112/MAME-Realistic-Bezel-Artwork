@@ -23,22 +23,22 @@
 		<screen index="0">
 			<bounds x="392" y="111" width="1312" height="984" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
 			<bounds x="392" y="111" width="1312" height="984" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
 	</view>
 
 </mamelayout>
@@ -47,6 +47,6 @@
 
 - Artwork type: Bezel
 - Realistic bezel by John Merrit
-- Artwork split and lay file by estefan3112
+- Artwork split and lay file by estefan3112 - old layout format
 
 -->

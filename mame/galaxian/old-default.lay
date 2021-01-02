@@ -1,46 +1,34 @@
-<!-- galaga.lay -->
+<!-- galaxian.lay -->
 
 <mamelayout version="2">
 
   <element name="realbezel">
-    <image file="galaga_realbezel.png" />
+    <image file="galaxian_realbezel.png" />
   </element>
 
   <element name="screen">
-    <image file="galaga_screen.png" />
+    <image file="galaxian_screen.png" />
   </element>
-
-  <element name="bezel">
-		<image file="galaga.png" />
-	</element>
 
 	<view name="Cabinet_Clear_Screen">
 		<screen index="0">
 			<bounds x="1250" y="150" width="1475" height="1966" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
 			<bounds x="1250" y="150" width="1475" height="1966" />
 		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
-		</element>
-	</view>
-  <view name="4k Cabinet">
-		<screen index="0">
-			<bounds x="1220" y="140" width="1424" height="1864" />
-		</screen>
-		<element ref="bezel">
-			<bounds x="0" y="0" width="3840" height="2160" />
-		</element>
+		</bezel>
 	</view>
 
 </mamelayout>
@@ -48,7 +36,7 @@
 <!--
 
 - Artwork type: Bezel
-- Bezels by John Merrit and ArsInvictusMedia
-- Lay file by estefan3112
+- Bezels by John Merrit
+- Lay file by estefan3112 - old layout format
 
 -->

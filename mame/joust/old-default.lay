@@ -1,12 +1,12 @@
 <!-- joust.lay -->
 
 <mamelayout version="2">
-	<element name="4kbezel">
-		<image file="joust.png" />
-	</element>
-	<element name="screen-real">
-		<image file="screen.png" />
-	</element>
+<element name="4kbezel">
+	<image file="joust.png" />
+</element>
+<element name="screen-real">
+	<image file="screen.png" />
+</element>
 	<element name="bezel">
 		<image file="joust_bezel.png" />
 	</element>
@@ -16,39 +16,39 @@
 	<element name="inst_uk">
 		<image file="joust_inst_uk.png" />
 	</element>
-
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="375" y="65" width="1170" height="960" />
 		</screen>
-		<element ref="4kbezel">
+		<bezel element="4kbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="375" y="65" width="1170" height="960" />
 		</screen>
-		<element ref="4kbezel">
+		<bezel element="4kbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen-real">
+		</bezel>
+		<bezel element="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-		</element>
+		</bezel>
 	</view>
+
 
 	<view name="Upright_Artwork_US">
 		<bounds x="0" y="0" width="4000" height="3250" />
 		<screen index="0">
 			<bounds x="743" y="654" width="2520" height="1890" />
 		</screen>
-		<element ref="inst_us">
+		<bezel element="inst_us">
 			<bounds x="3404" y="971" width="504" height="835" />
-		</element>
-		<element ref="bezel">
+		</bezel>
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="4000" height="3554" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -59,6 +59,6 @@
 - Vectorized by Zorg; color corrected by Ad_Enuff
 - Inst_Card provided by CAG / BYOAC Artwork
 - Realistic Bezel by John Meritt
-- Lay file by Mr. Do and estefan3112
+- Lay file by Mr. Do and estefan3112 - old layout format
 
 -->

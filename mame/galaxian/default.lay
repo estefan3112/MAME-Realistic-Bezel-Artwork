@@ -14,21 +14,29 @@
 		<screen index="0">
 			<bounds x="1250" y="150" width="1475" height="1966" />
 		</screen>
-		<bezel element="realbezel">
+		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</bezel>
+		</element>
 	</view>
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
 			<bounds x="1250" y="150" width="1475" height="1966" />
 		</screen>
-		<bezel element="realbezel">
+		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</bezel>
-		<bezel element="screen">
+		</element>
+		<element ref="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
-		</bezel>
+		</element>
 	</view>
 
 </mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Bezels by John Merrit and ArsInvictusMedia
+- Lay file by estefan3112
+
+-->

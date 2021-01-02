@@ -7,43 +7,33 @@
   <element name="screen">
     <image file="espradej_screen.png" />
   </element>
-  <element name="screen_mask">
-    <image file="vert_screen_mask.png" />
-  </element>
-
 
   <view name="Clear Screen">
     <screen index="0">
       <bounds x="1305" y="220" width="1302" height="1736" />
     </screen>
-    <element ref="screen_mask" blend="multiply">
-      <bounds x="1305" y="220" width="1302" height="1736" />
-    </element>
-    <element ref="bezel">
+    <bezel element="bezel">
       <bounds x="0" y="0" width="4000" height="2250" />
-    </element>
+    </bezel>
   </view>
 
   <view name="Scratch Screen">
     <screen index="0">
       <bounds x="1305" y="220" width="1302" height="1736" />
     </screen>
-    <element ref="screen_mask" blend="multiply">
-      <bounds x="1305" y="220" width="1302" height="1736" />
-    </element>
-    <element ref="bezel">
+    <bezel element="bezel">
       <bounds x="0" y="0" width="4000" height="2250" />
-    </element>
-    <element ref="screen">
+    </bezel>
+    <bezel element="screen">
       <bounds x="0" y="0" width="4000" height="2250" />
       <color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
-    </element>
+    </bezel>
  </view>
   </mamelayout>
 
 <!--
 
 - Artwork by: Orionsangel
-- Lay file by estefan3112
+- Lay file by estefan3112 - old layout format
 
 -->
