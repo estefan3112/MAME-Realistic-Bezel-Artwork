@@ -21,34 +21,33 @@
 		<screen index="0">
 			<bounds x="502" y="204" width="912" height="684" />
 		</screen>
-		<element ref="inner">
+		<bezel element="inner">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="502" y="204" width="912" height="684" />
 		</screen>
-		<element ref="inner">
+		<bezel element="inner">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
            		<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
-		</element>
+		</bezel>
 	</view>
-
 	<view name="Cocktail_Artwork">
 		<screen index="0">
 			<bounds x="1200" y="912" width="1600" height="1200" />
 		</screen>
-		<element ref="wood">
+		<bezel element="wood">
 			<bounds x="0" y="0" width="4000" height="2990" />
-		</element>
-		<element ref="cocktail">
+		</bezel>
+		<bezel element="cocktail">
 			<bounds x="0" y="0" width="4000" height="2990" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -62,6 +61,6 @@
 - Scanned Atari cocktail frame and Asteroids graphics provided by Mr. Do
 - On loan from Gene at www.vintagearcade.net
 - Vectored by jcroach
-- Lay file by Mr. Do, screeen split by estefan3112
+- Lay file by Mr. Do, screeen split by estefan3112 - old format
 
 -->
