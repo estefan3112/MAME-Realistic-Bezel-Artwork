@@ -1,17 +1,17 @@
-<!-- mk.lay -->
+<!-- mk2.lay -->
 
 <mamelayout version="2">
-	<element name="4kbezel">
-		<image file="mk.png" />
-	</element>
+<element name="4kbezel">
+	<image file="mk2.png" />
+</element>
 	<element name="marquee">
-		<image file="mk_marquee.png" />
+		<image file="mk2_marquee.png" />
 	</element>
 	<element name="inst">
-		<image file="mk_inst_card.png" />
+		<image file="mk2_inst_card.png" />
 	</element>
 	<element name="cpo">
-		<image file="mortal_kombat_cpo.png" />
+		<image file="mortal_kombat_ii_cpo.png" />
 	</element>
 	<element name="bezel">
 		<image file="generic_bezel_horiz_2.png" />
@@ -20,35 +20,35 @@
 		<screen index="0">
 			<bounds x="995" y="414" width="1842" height="1412" />
 		</screen>
-		<element ref="4kbezel">
+		<bezel element="4kbezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Upright_Artwork">
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3600" />
+		</bezel>
+		<bezel element="inst">
+			<bounds x="778" y="2973" width="2444" height="556" />
+		</bezel>
 		<screen index="0">
 			<bounds x="440" y="482" width="3120" height="2340" />
 		</screen>
-		<element ref="bezel">
-			<bounds x="0" y="0" width="4000" height="3600" />
-		</element>
-		<element ref="inst">
-			<bounds x="778" y="2973" width="2444" height="556" />
-		</element>
 		<marquee element="marquee">
-			<bounds x="0" y="-1125" width="4000" height="1175" />
+			<bounds x="0" y="-1660" width="4000" height="1610" />
 		</marquee>
 		<cpanel element="cpo">
-			<bounds x="-200" y="3650" width="4400" height="2204" />
+			<bounds x="-200" y="3650" width="4400" height="2192" />
 		</cpanel>
 	</view>
 	<view name="Marquee_Only">
 		<marquee element="marquee">
-			<bounds x="0" y="0" width="4000" height="1175" />
+			<bounds x="0" y="0" width="4000" height="1610" />
 		</marquee>
 	</view>
 	<view name="CPanel_Only">
 		<cpanel element="cpo">
-			<bounds x="0" y="0" width="4000" height="2004" />
+			<bounds x="0" y="0" width="4000" height="1993" />
 		</cpanel>
 	</view>
 	<view name="Instructions_Only">
@@ -63,9 +63,9 @@
 - Artwork type: Marquee, CPanel, Inst. Card
 - Scanned instruction card provided by BYOAC / CAG Artwork
 - Cleaned for MAME by Mr. Do
-- Scanned marquee cpo provided by BYOAC / CAG Artwork
+- Scanned marquee and cpo provided by BYOAC / CAG Artwork
 - Cleaned for MAME by Lord Hiryu
-- 4k Cabinet by ArsinvictusMedia
-- Lay file by Mr. Do and ArsinvictusMedia
+- 4k Bezel by ArsInvictusMedia
+- Lay file by Mr. Do and ArsInvictusMedia
 
 -->

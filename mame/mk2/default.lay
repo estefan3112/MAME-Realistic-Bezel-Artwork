@@ -1,9 +1,9 @@
 <!-- mk2.lay -->
 
 <mamelayout version="2">
-<element name="4kbezel">
-	<image file="mk2.png" />
-</element>
+	<element name="4kbezel">
+		<image file="mk2.png" />
+	</element>
 	<element name="marquee">
 		<image file="mk2_marquee.png" />
 	</element>
@@ -20,20 +20,20 @@
 		<screen index="0">
 			<bounds x="995" y="414" width="1842" height="1412" />
 		</screen>
-		<bezel element="4kbezel">
+		<element ref="4kbezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
-		</bezel>
+		</element>
 	</view>
 	<view name="Upright_Artwork">
-		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="3600" />
-		</bezel>
-		<bezel element="inst">
-			<bounds x="778" y="2973" width="2444" height="556" />
-		</bezel>
 		<screen index="0">
 			<bounds x="440" y="482" width="3120" height="2340" />
 		</screen>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4000" height="3600" />
+		</element>
+		<element ref="inst">
+			<bounds x="778" y="2973" width="2444" height="556" />
+		</element>
 		<marquee element="marquee">
 			<bounds x="0" y="-1660" width="4000" height="1610" />
 		</marquee>
