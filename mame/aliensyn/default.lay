@@ -18,23 +18,23 @@
 		</element>
 	</view>
 	<view name="NMVA Clear Screen">
-		<element ref="nmva_widescreen">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 		<screen index="0">
 			<bounds x="515" y="240" width="908" height="681" />
 		</screen>
+		<element ref="nmva_widescreen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
 	</view>
 	<view name="NMVA Scratch Screen">
+		<screen index="0">
+			<bounds x="515" y="240" width="908" height="681" />
+		</screen>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 		<element ref="nmva_screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
-		<screen index="0">
-			<bounds x="515" y="240" width="908" height="681" />
-		</screen>
 	</view>
 </mamelayout>
 

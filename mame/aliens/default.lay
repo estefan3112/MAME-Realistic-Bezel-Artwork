@@ -9,15 +9,18 @@
 	</element>
 
 	<view name="Clear Screen">
-		<bezel element="nmva_widescreen">
+	<screen index="0">
+		<bounds x="470" y="160" width="1000" height="750" />
+	</screen>
+		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</bezel>
-		<screen index="0">
-			<bounds x="470" y="160" width="1000" height="750" />
-		</screen>
+		</element>
 	</view>
 
 	<view name="Scratch Screen">
+	<screen index="0">
+		<bounds x="470" y="160" width="1000" height="750" />
+	</screen>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -25,9 +28,6 @@
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
 		</element>
-		<screen index="0">
-			<bounds x="470" y="160" width="1000" height="750" />
-		</screen>
 	</view>
 
 </mamelayout>
