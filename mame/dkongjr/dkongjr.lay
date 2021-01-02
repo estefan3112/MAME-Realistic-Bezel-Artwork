@@ -10,33 +10,33 @@
 	<element name="screen">
 		<image file="dkongjr_screen.png" />
 	</element>
-		<view name="Clear Screen">
-			<screen index="0">
+	<view name="Clear Screen">
+		<screen index="0">
+		<bounds x="585" y="55" width="750" height="1000" />
+		</screen>
+		<element ref="realbezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
 			<bounds x="585" y="55" width="750" height="1000" />
-			</screen>
-			<bezel element="realbezel">
-				<bounds x="0" y="0" width="1920" height="1080" />
-			</bezel>
-		</view>
-		<view name="Scratch Screen">
-			<screen index="0">
-				<bounds x="585" y="55" width="750" height="1000" />
-			</screen>
-			<bezel element="realbezel">
-				<bounds x="0" y="0" width="1920" height="1080" />
-			</bezel>
-			<bezel element="screen">
-				<bounds x="0" y="0" width="1920" height="1080" />
-				<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-			</bezel>
+		</screen>
+		<element ref="realbezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+		<element ref="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</element>
 		</view>
 	<view name="Upright_Artwork">
 		<screen index="0">
 			<bounds x="1010" y="361" width="1980" height="2640" />
 		</screen>
-		<bezel element="bezel">
+		<element ref="bezel">
 			<bounds x="0" y="0" width="4000" height="3616" />
-		</bezel>
+		</element>
 	</view>
 </mamelayout>
 
