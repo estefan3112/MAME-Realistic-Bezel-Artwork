@@ -51,7 +51,7 @@ Also, do not forget to zip the folders into .zip files as soon as you are happy 
 
 Throughout 2020, the MAME layout format has been revamped. As of version 0.225, the 'old' layout files produce a warning in the Terminal, such as
 "Warning: layout view 'Upright_Artwork' contains deprecated bezel element."
-The required updates in my layout files are (mostly) trivial, and I will update gradually all layout files. For MAME versions < v0.225, I will retain the old version under the filename 'default.old-lay', which you obviously have to rename to 'default.lay' in order to work.
+The required updates in my layout files are (mostly) trivial, and I will update gradually all layout files. For MAME versions < v0.225, I will retain the old version under the filename 'old-default.lay', which you obviously have to rename to 'default.lay' in order to work.
 
 Required changes to my lay files spotted so far (still exploring):
 (1) Replace <bezel element> and </bezel> by <element ref> and </element>
