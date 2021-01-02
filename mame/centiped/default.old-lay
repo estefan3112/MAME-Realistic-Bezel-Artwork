@@ -14,35 +14,35 @@
 		<image file="centiped_screen.png" />
 	</element>
 	<view name="Clear Screen">
+		<bezel element="bezel_realistic">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="600" y="48" width="730" height="972" />
 		</screen>
-		<element ref="bezel_realistic">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 	<view name="Scratch Screen">
+		<bezel element="bezel_realistic">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
+		</bezel>
 		<screen index="0">
 			<bounds x="600" y="48" width="730" height="972" />
 		</screen>
-		<element ref="bezel_realistic">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen">
-			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
-		</element>
 	</view>
 	<view name="Cocktail_Artwork">
 		<screen index="0">
 			<bounds x="1457" y="771" width="1095" height="1460" />
 		</screen>
-		<element ref="wood">
+		<bezel element="wood">
 			<bounds x="0" y="0" width="4000" height="2990" />
-		</element>
-		<element ref="cocktail">
+		</bezel>
+		<bezel element="cocktail">
 			<bounds x="0" y="0" width="4000" height="2990" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -51,7 +51,7 @@
 - Artwork type: Bezel
 - Scanned cocktail instructions provided by BYOAC / CAG artwork
 - Cocktail frame vectorized by jcroach
-- Lay file by Mr. Do
+- Lay file by Mr. Do - old layout version
 - Additional realistic bezel by John Merrit
 - Artwork split and lay file update by estefan3112
 

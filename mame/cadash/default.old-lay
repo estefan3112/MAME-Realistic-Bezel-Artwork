@@ -8,34 +8,40 @@
 		<image file="cadash_nmva_ws_screen.png" />
 	</element>
 
+
 	<view name="Clear Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
 		<screen index="0">
 			<bounds x="770" y="195" width="2488" height="1866" />
 		</screen>
-		<element ref="nmva_widescreen">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
 	</view>
 
 	<view name="Scratch Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen_scratches">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+		</bezel>
 		<screen index="0">
 			<bounds x="770" y="195" width="2488" height="1866" />
 		</screen>
-		<element ref="nmva_widescreen">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="screen_scratches">
-			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
-		</element>
+
+
+
 	</view>
+
+
 
 </mamelayout>
 
 <!--
 
 - Artwork type: NMVA and Orionsangel
-- Lay file by Mr. Do
+- Lay file by Mr. Do - old layout version
 - Screen Split by estefan3112
 
 -->

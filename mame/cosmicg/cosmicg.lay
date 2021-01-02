@@ -1,0 +1,55 @@
+<!-- cosmicg.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="cosmic_guerilla_bezel.png" />
+	</element>
+	<element name="realbezel">
+		<image file="cosmicg_realbezel.png" />
+	</element>
+	<element name="screen">
+		<image file="cosmicg_screen.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="1260" y="130" width="1480" height="1973" />
+		</screen>
+		<element ref="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</element>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="1260" y="130" width="1480" height="1973" />
+		</screen>
+		<element ref="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</element>
+		<element ref="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
+		</element>
+	</view>
+
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="944" y="479" width="2100" height="2800" />
+		</screen>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4000" height="3820" />
+		</element>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Scanned bezel provided by TrevEB
+- Cleaned up for MAME by Antny
+- Lay file by Mr. Do
+- Additional realistic bezel by John Merrit
+- Artwork split and lay file update by estefan3112
+
+
+-->

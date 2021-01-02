@@ -1,0 +1,41 @@
+<!-- cheekyms.lay -->
+
+<mamelayout version="2">
+	<element name="bezel_realistic">
+		<image file="cheekyms_bezel.png" />
+	</element>
+	<element name="screen">
+		<image file="cheekyms_screen.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="600" y="48" width="720" height="960" />
+		</screen>
+		<element ref="bezel_realistic">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="600" y="48" width="720" height="960" />
+		</screen>
+		<element ref="bezel_realistic">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+		<element ref="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
+		</element>
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Lay file by Mr. Do
+- Realistic bezel by John Merrit
+- Artwork split and lay file update by estefan3112
+
+-->

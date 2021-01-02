@@ -12,12 +12,12 @@
     <screen index="0">
       <bounds x="490" y="125" width="940" height="705" />
     </screen>
-    <element ref="screen_mask" blend="multiply">
+    <overlay element="screen_mask">
       <bounds x="483" y="100" width="955" height="745" />
-    </element>
-    <element ref="bezel">
+    </overlay>
+    <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
+    </bezel>
   </view>
 
 </mamelayout>
@@ -25,5 +25,5 @@
 <!--
 - Artwork type: Bezel
 - Bezel by estefan3112
-- Lay file by estefan3112
+- Lay file by estefan3112 - old layout format
 -->

@@ -11,23 +11,23 @@
 		<screen index="0">
 			<bounds x="610" y="77" width="700" height="935" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="610" y="77" width="700" height="935" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -36,6 +36,6 @@
 - Artwork type: Bezel
 - bezel provided by John Merrit
 - Converted for MAME and Screen Split by estefan3112
-- Base on lay file by Mr. Do
+- Base on lay file by Mr. Do - old layout version
 
 -->

@@ -14,49 +14,49 @@
 		<image file="screen_nmva.png" />
 	</element>
 	<view name="Clear Screen">
+		<bezel element="bezel_realistic">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="360" y="95" width="1196" height="897" />
 		</screen>
-		<element ref="bezel_realistic">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 	<view name="Scratch Screen">
+		<bezel element="bezel_realistic">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen">
+		    <bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</bezel>
 		<screen index="0">
 			<bounds x="360" y="95" width="1196" height="897" />
 		</screen>
-		<element ref="bezel_realistic">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen">
-		    <bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-		</element>
 	</view>
 	<view name="NMVA Clear Screen">
+		<bezel element="bezel_nmva">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="530" y="205" width="836" height="627" />
 		</screen>
-		<element ref="bezel_nmva">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 	<view name="NMVA Scratch Screen">
+		<bezel element="bezel_nmva">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen_nmva">
+		    <bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</bezel>
 		<screen index="0">
 			<bounds x="530" y="205" width="836" height="627" />
 		</screen>
-		<element ref="bezel_nmva">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen_nmva">
-		    <bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-		</element>
 	</view>
 </mamelayout>
 
 <!--
-- Lay file by Mr. Do
+- Lay file by Mr. Do - old layout format
 - Realistic bezels by John Merrit and NMVA/Orionsangel
 - Artwork split and lay file update by estefan3112
 

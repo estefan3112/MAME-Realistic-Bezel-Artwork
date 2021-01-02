@@ -18,35 +18,34 @@
    <screen index="0">
       <bounds x="572" y="220" width="868" height="651" />
     </screen>
-    <element ref="screen_mask" blend="multiply">
-      <bounds x="568" y="219" width="872" height="650" />
-    </element>
-    <element ref="screen_bezel" blend="add">
+  	<backdrop element="screen_bezel">
       <bounds x="535" y="195" width="937" height="698" />
-    </element>
-    <element ref="bezel">
+    </backdrop>
+    <overlay element="screen_mask">
+      <bounds x="568" y="219" width="872" height="650" />
+    </overlay>
+    <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
-
+    </bezel>
 </view>
 
 <view name="Cabinet Scratch Screen">
     <screen index="0">
       <bounds x="572" y="220" width="868" height="651" />
     </screen>
-    <element ref="screen_mask" blend="multiply">
-      <bounds x="568" y="219" width="872" height="650" />
-    </element>
-  	<element ref="screen_bezel" blend="add">
+  	<backdrop element="screen_bezel">
       <bounds x="535" y="195" width="937" height="698" />
-    </element>
-    <element ref="bezel">
+    </backdrop>
+    <overlay element="screen_mask">
+      <bounds x="568" y="219" width="872" height="650" />
+    </overlay>
+    <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
-    <element ref="screen">
+    </bezel>
+    <bezel element="screen">
       <bounds x="0" y="0" width="1920" height="1080" />
       <color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
-	</element>
+	</bezel>
 </view>
 
 </mamelayout>
@@ -55,6 +54,6 @@
 
 - Artwork type: Bezel
 - Bezel provided by Orionsangel
-- Lay file by estefan3112
+- Lay file by estefan3112 - old layout format
 
 -->

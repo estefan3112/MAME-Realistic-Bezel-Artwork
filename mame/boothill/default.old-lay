@@ -8,29 +8,29 @@
 		<image file="screen.png" />
 	</element>
 	<view name="Clear Screen">
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="290" y="85" width="1204" height="903" />
 		</screen>
-		<element ref="bezel">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 	<view name="Background Screen">
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="290" y="85" width="1204" height="903" />
 		</screen>
-		<element ref="bezel">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 </mamelayout>
 
 <!--
 
 - Artwork type: NMVA
-- Lay file and screen split by estefan3112
+- Lay file and screen split by estefan3112 - old layout format
 
 -->

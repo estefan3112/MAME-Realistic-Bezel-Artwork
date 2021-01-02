@@ -45,18 +45,22 @@ https://mameonmacs.blogspot.co.at/2017/02/porting-retropie-artwork-to-official.h
 A general note as regards Screen Size in these Layout files:
 As explained to me by John in a post, nearly all traditional Cabinet monitors are 4:3 aspect ratio. Even if the game provides for a different internal screen resolution, they were displayed in 4:3. Although this results in distortion in some games, only this seems to provide the view of the original. Where the bezel artwork does not respect the 4:3 aspect ratio, I needed to compromise.
 
+Also, do not forget to zip the folders into .zip files as soon as you are happy with them.
+
 # Important update: new layout format as of MAME 0.225
 
 Throughout 2020, the MAME layout format has been revamped. As of version 0.225, the 'old' layout files produce a warning in the Terminal, such as
 "Warning: layout view 'Upright_Artwork' contains deprecated bezel element."
-The required updates in my layout files are trivial, and I will update gradually all layout files. For MAME versions < v0.225, I will retain the old version under the filename 'default.old-lay', which you obviously have to rename to 'default.lay' in order to work.
+The required updates in my layout files are (mostly) trivial, and I will update gradually all layout files. For MAME versions < v0.225, I will retain the old version under the filename 'default.old-lay', which you obviously have to rename to 'default.lay' in order to work.
 
-Required changes to my lay files spotted so far:
+Required changes to my lay files spotted so far (still exploring):
 (1) Replace <bezel element> and </bezel> by <element ref> and </element>
 (2) In each view, the order matters now. So screen must be first and then overlapping bezels.
+(3) Old Overlay Elements now need blend="multiply" as element attribute
+(4) Old Backdrop Elements nw need blend="add" as element attribute
 
 # W.I.P. - so stay tuned :)
 
-This is work in progress, more artwork to arrive. It takes very long because I am doing a lot of testing before I am satisfied with the results.
+This is work in progress, more artwork to arrive. It takes very long because I am doing a lot of testing before I am satisfied with the results. Same applies to the new layout format - I am testing every single file prior to publishing it.
 
 ALL WORK DONE HERE IS LICENSED UNDER GPL FOR FURTHER FREE USE.

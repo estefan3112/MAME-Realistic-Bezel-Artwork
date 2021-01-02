@@ -14,36 +14,36 @@
 		<screen index="0">
 			<bounds x="604" y="72" width="729" height="972" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
-		<element ref="inst">
+		</bezel>
+		<bezel element="inst">
 			<bounds x="1410" y="410" width="259" height="459" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="604" y="72" width="729" height="972" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
-		</element>
-		<element ref="inst">
+		</bezel>
+		<bezel element="inst">
 			<bounds x="1410" y="410" width="259" height="459" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Instructions_Only">
-		<element ref="inst">
+		<bezel element="inst">
 			<bounds x="0" y="0" width="1135" height="2000" />
-		</element>
+		</bezel>
 	</view>
    </mamelayout>
 
@@ -52,7 +52,7 @@
 - Artwork type: Bezel, Inst. Card
 - Scanned instruction card provided by tormod
 - bezel provided by John Merrit
-- Converted for MAME and Screen Split by estefan3112
+- Converted for MAME and Screen Split by estefan3112 - old layout format
 - Based on Lay file by Mr. Do
 
 -->

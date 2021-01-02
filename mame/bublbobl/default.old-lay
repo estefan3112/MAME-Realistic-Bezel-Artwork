@@ -33,54 +33,54 @@
 		<screen index="0">
 			<bounds x="391" y="110" width="1137" height="852" />
 		</screen>
-		<element ref="cabinet">
+		<bezel element="cabinet">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="inst_vert">
+		</bezel>
+		<bezel element="inst_vert">
 			<bounds x="184" y="624" width="213" height="295" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Cabinet_Scratch_Screen">
 		<screen index="0">
 			<bounds x="391" y="110" width="1137" height="852" />
 		</screen>
-		<element ref="cabinet">
+		<bezel element="cabinet">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
-		</element>
-		<element ref="inst_vert">
+		</bezel>
+		<bezel element="inst_vert">
 			<bounds x="184" y="624" width="213" height="295" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
-		</element>
+		</bezel>
 	</view>
 
   <view name="Cab Artwork (no reflection)">
     <screen index="0">
       <bounds x="420" y="135" width="1080" height="810" />
     </screen>
-  	<element ref="screen_mask" blend="multiply">
+  <overlay element="screen_mask">
       <bounds x="419" y="134" width="1082" height="812" />
-    </element>
-		<element ref="screen_bezel" blend="add">
+    </overlay>
+    <backdrop element="screen_bezel">
       <bounds x="383" y="98" width="1154" height="884" />
-    </element>
-    <element ref="bezel_noref">
+    </backdrop>
+    <bezel element="bezel_noref">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
+    </bezel>
   </view>
 
 	<view name="Inst_Card_JPN">
 		<screen index="0">
 			<bounds x="0" y="0" width="4000" height="3000" />
 		</screen>
-		<element ref="inst_horiz">
+		<bezel element="inst_horiz">
 			<bounds x="0" y="3050" width="4000" height="738" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Inst_Card_US">
@@ -88,21 +88,21 @@
 		<screen index="0">
 			<bounds x="0" y="0" width="6000" height="4500" />
 		</screen>
-		<element ref="inst_horiz2" blend="multiply">
+		<backdrop element="inst_horiz2">
 			<bounds x="1000" y="4600" width="4000" height="841" />
-		</element>
-		<element ref="inst_vert">
+		</backdrop>
+		<bezel element="inst_vert">
 			<bounds x="6100" y="1500" width="1444.5" height="2000" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Bezel_Homebrew">
 		<screen index="0">
 			<bounds x="905" y="707" width="2160" height="1620" />
 		</screen>
-		<element ref="homebrew">
+		<bezel element="homebrew">
 			<bounds x="0" y="0" width="4000" height="3144" />
-		</element>
+		</bezel>
 	</view>
 
 </mamelayout>
@@ -116,6 +116,6 @@
 - Scanned instruction card provided by aphex [horizontal-1]
 - Scanned instruction card provided by ThePinnyParlour [horizontal-2]
 - Converted for MAME by Mr. Do
-- Lay file by Mr. Do
+- Lay file by Mr. Do - old layout format
 
 -->

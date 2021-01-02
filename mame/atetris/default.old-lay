@@ -7,29 +7,29 @@
 	</element>
 
 	<view name="NMVA_Widescreen Clear Screen">
+		<bezel element="nmva_bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="420" y="150" width="1044" height="783" />
 		</screen>
-		<element ref="nmva_bezel">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 	<view name="NMVA_Widescreen Scratch Screen">
+		<bezel element="nmva_bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="nmva_screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
 		<screen index="0">
 			<bounds x="420" y="150" width="1044" height="783" />
 		</screen>
-		<element ref="nmva_bezel">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="nmva_screen">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 	</view>
 </mamelayout>
 
 <!--
 
 - Artwork type: NMVA
-- Lay file and artwork split by estefan3112
+- Lay file and artwork split by estefan3112 - old layout format
 
 -->
