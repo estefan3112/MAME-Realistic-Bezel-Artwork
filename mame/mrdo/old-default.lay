@@ -1,4 +1,4 @@
-<!-- insert game name.lay -->
+<!-- mr do.lay -->
 
 <mamelayout version="2">
 	<element name="bezel-real">
@@ -10,24 +10,24 @@
 
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="355" y="85" width="1200" height="900" />
+			<bounds x="585" y="50" width="750" height="1000" />
 		</screen>
-		<element ref="bezel-real">
+		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="355" y="85" width="1200" height="900" />
+			<bounds x="585" y="50" width="750" height="1000" />
 		</screen>
-		<element ref="bezel-real">
+		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen-real">
+		</bezel>
+		<bezel element="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-		</element>
+		</bezel>
 	</view>
 
 </mamelayout>
@@ -37,6 +37,6 @@
 - Artwork type: Bezel
 - This is my default MAME Artwork Layout File
 - Realistic bezel by John Merrit
-- Artwork split and lay file update by estefan3112
+- Artwork split and lay file update by estefan3112 - old layout format
 
 -->
