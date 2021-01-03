@@ -5,6 +5,7 @@
   <element name="bezel">
     <image file="pacman_bezel.png" />
   </element>
+
   <element name="bezel_noref">
     <image file="pacman_bezel_noref.png" />
   </element>
@@ -16,35 +17,36 @@
     <screen index="0">
       <bounds x="695" y="135" width="477" height="636" />
     </screen>
-    <element ref="bezel">
+    <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
-  </view>
-
-  <view name="Close Cabinet Clean">
-    <screen index="0">
-      <bounds x="590" y="50" width="750" height="1000" />
-    </screen>
-    <element ref="bezel_noref">
-      <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
+    </bezel>
   </view>
 
   <view name="Close Cabinet Scratch">
     <screen index="0">
       <bounds x="590" y="50" width="750" height="1000" />
     </screen>
-    <element ref="bezel_noref">
+    <bezel element="bezel_noref">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
-    <element ref="bezel_noref_screen">
+    </bezel>
+    <bezel element="bezel_noref_screen">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
+    </bezel>
   </view>
+  <view name="Close Cabinet Clean">
+    <screen index="0">
+      <bounds x="590" y="50" width="750" height="1000" />
+    </screen>
+    <bezel element="bezel_noref">
+      <bounds x="0" y="0" width="1920" height="1080" />
+    </bezel>
+  </view>
+
 
 </mamelayout>
 
 <!--
 - Artwork type: Bezel
 - Realistic bezel by John Merrit
-- Artwork split and lay file update by estefan3112 -->
+- Artwork split and lay file update by estefan3112 - old layout format
+-->

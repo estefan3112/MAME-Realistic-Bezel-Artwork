@@ -24,31 +24,29 @@
 			<color red="1.0" green="0.3" blue="0.0" />
 		</led7seg>
 	</element>
-
 	<view name="Used Cabinet">
 		<screen index="0">
 			<bounds x="760" y="200" width="2480" height="1860" />
 		</screen>
-		<element ref="Cabinet">
+		<bezel element="Cabinet">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
+		</bezel>
 	</view>
 	<view name="Clear Screen Cabinet">
 		<screen index="0">
 			<bounds x="760" y="200" width="2480" height="1860" />
 		</screen>
-		<element ref="Cabinet Clear">
+		<bezel element="Cabinet Clear">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
+		</bezel>
 	</view>
-
-	<view name="Upright_Artwork_MVS">
+ 	<view name="Upright_Artwork_MVS">
 		<screen index="0">
 			<bounds x="580" y="735" width="2840" height="2130" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="4000" height="3600" />
-		</element>
+		</bezel>
 		<marquee element="mini">
 			<bounds x="3070" y="-1038" width="782" height="950" />
 		</marquee>
@@ -71,7 +69,6 @@
 			<bounds x="2764" y="3751" width="86" height="115" />
 		</cpanel>
 	</view>
-
 	<view name="Marquee_Only_MVS">
 		<marquee element="mini">
 			<bounds x="3070" y="-1038" width="782" height="950" />
@@ -80,7 +77,6 @@
 			<bounds x="0" y="-1126" width="4000" height="1106" />
 		</marquee>
 	</view>
-
 	<view name="CPanel_Only_MVS">
 		<cpanel element="cpo">
 			<bounds x="0" y="4000" width="4000" height="1504" />
@@ -98,7 +94,6 @@
 			<bounds x="2764" y="4151" width="86" height="115" />
 		</cpanel>
 	</view>
-
 	<view name="Instructions_Only_MVS">
 		<marquee element="mini">
 			<bounds x="0" y="0" width="825" height="1002" />
@@ -113,6 +108,6 @@
 - Vectorized by zorg
 - Scanned mini-marquee provided by oNyX
 - Converted for MAME by Mr. Do
-- Lay file by Mr. Do - layout conversion incomplete
+- Lay file by Mr. Do - old layout format
 
 -->
