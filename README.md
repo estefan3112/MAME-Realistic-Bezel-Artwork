@@ -58,6 +58,7 @@ Required changes to my lay files spotted so far (still exploring):
 (2) In each view, the order matters now. So screen must be first and then overlapping bezels.
 (3) Old Overlay Elements now need blend="multiply" as element attribute
 (4) Old Backdrop Elements nw need blend="add" as element attribute
+Very helpful explanations by Mr. Do: https://mrdo.mameworld.info - post of November 22, 2020.
 
 # W.I.P. - so stay tuned :)
 
