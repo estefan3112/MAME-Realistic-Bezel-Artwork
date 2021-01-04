@@ -10,11 +10,17 @@
 	<element name="bezelA1">
 		<image file="Bezel - 16x9 with bezel (AlexDC22).png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="580" y="245" width="780" height="585" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+      <bounds x="580" y="245" width="780" height="585" />
+    </element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -24,6 +30,9 @@
 		<screen index="0">
 			<bounds x="580" y="245" width="780" height="585" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+      <bounds x="580" y="245" width="780" height="585" />
+    </element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
