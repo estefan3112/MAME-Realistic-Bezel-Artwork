@@ -5,50 +5,53 @@
 		<image file="zaxx169.png" />
 	</element>
 	<element name="cab">
-			<image file="cab.png" />
+		<image file="cab.png" />
 	</element>
 	<element name="screen">
-			<image file="screen.png" />
+		<image file="screen.png" />
 	</element>
-		<element name="bezelK">
+	<element name="bezelK">
 		<image file="art.png" />
 	</element>
 
-		<view name="Cabinet Clear Screen">
-			<screen index="0">
-				<bounds x="589" y="56" width="747" height="996" />
-			</screen>
-			<bezel element="cab">
-				<bounds x="0" y="0" width="1920" height="1080" />
-			</bezel>
-	    </view>
-		<view name="Cabinet Scratch Screen">
-			<screen index="0">
-				<bounds x="589" y="56" width="747" height="996" />
-			</screen>
-			<bezel element="cab">
-				<bounds x="0" y="0" width="1920" height="1080" />
-			</bezel>
-			<bezel element="screen">
-				<bounds x="0" y="0" width="1920" height="1080" />
-				<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
-			</bezel>
-	    </view>
-		<view name="Artwork">
-			<screen index="0">
-				<bounds x="600" y="56" width="726" height="968" />
-			</screen>
-			<bezel element="bezelK">
-				<bounds x="0" y="0" width="1920" height="1080" />
-			</bezel>
-			</view>
+	<view name="Cabinet Clear Screen">
+		<screen index="0">
+			<bounds x="589" y="56" width="747" height="996" />
+		</screen>
+		<element ref="cab">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+
+	<view name="Cabinet Scratch Screen">
+		<screen index="0">
+			<bounds x="589" y="56" width="747" height="996" />
+		</screen>
+		<element ref="cab">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+		<element ref="screen">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
+		</element>
+	</view>
+
+	<view name="Artwork">
+		<screen index="0">
+			<bounds x="600" y="56" width="726" height="968" />
+		</screen>
+		<element ref="bezelK">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+
 	<view name="Hausjam_Artwork">
 		<screen index="0">
 			<bounds x="832" y="20" width="1170" height="1560" />
 		</screen>
-		<bezel element="wbezel">
+		<element ref="wbezel">
 			<bounds x="0" y="0" width="2833" height="1600" />
-		</bezel>
+		</element>
 	</view>
 </mamelayout>
 
@@ -58,6 +61,7 @@
 - Widescreen graphics by hausjam
 - Additional artwowrk from Mamehead Collection
 - Based on graphics in official arcade artwork
-- Lay file by Mr. Do
+- Used cab by John Merrit
+- Lay file by Mr. Do - layfile update by estefan3112
 
 -->

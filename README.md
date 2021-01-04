@@ -61,6 +61,8 @@ Required changes to my lay files spotted so far (still exploring):
 
 # W.I.P. - so stay tuned :)
 
-This is work in progress, more artwork to arrive. It takes very long because I am doing a lot of testing before I am satisfied with the results. Same applies to the new layout format - I am testing every single file prior to publishing it.
+First round of layfile update to v0.225 is completed! Some more complicated layfiles need further work.
+
+This is work in progress, more artwork to arrive. It takes very long because I am doing a lot of testing before I am satisfied with the results.
 
 ALL WORK DONE HERE IS LICENSED UNDER GPL FOR FURTHER FREE USE.

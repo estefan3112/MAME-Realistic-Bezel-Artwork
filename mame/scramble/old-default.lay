@@ -4,42 +4,40 @@
 	<element name="bezel">
 		<image file="scramble.png" />
 	</element>
-	<element name="bezel_realistic">
+<element name="bezel_realistic">
 		<image file="scramble_bezel.png" />
 	</element>
-	<element name="screen">
+<element name="screen">
 		<image file="scramble_screen.png" />
 	</element>
 
 	<view name="Clear Screen">
+		<bezel element="bezel_realistic">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
 		<screen index="0">
 			<bounds x="1260" y="150" width="1480" height="1973" />
 		</screen>
-		<element ref="bezel_realistic">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
 	</view>
-
 	<view name="Scratch Screen">
-		<screen index="0">
-			<bounds x="1260" y="150" width="1480" height="1973" />
-		</screen>
-		<element ref="bezel_realistic">
+		<bezel element="bezel_realistic">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
-		</element>
+		</bezel>
+		<screen index="0">
+			<bounds x="1260" y="150" width="1480" height="1973" />
+		</screen>
 	</view>
-
 	<view name="Upright_Artwork">
 		<screen index="0">
 			<bounds x="900" y="596" width="1581" height="2108" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="3358" height="3019" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -48,6 +46,6 @@
 - Artwork type: Bezel
 - Bezel provided by John Merrit
 - Converted for MAME by estefan3112
-- Based on lay file by Mr. Do
+- Based on lay file by Mr. Do - old layout format
 
 -->

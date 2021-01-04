@@ -9,33 +9,33 @@
 	</element>
 
 	<view name="Clear Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
 		<screen index="0">
 			<bounds x="770" y="190" width="2440" height="1830" />
 		</screen>
-		<element ref="nmva_widescreen">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
 	</view>
 
 	<view name="Scratch Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
+		<bezel element="screen">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.4" />
+		</bezel>
 		<screen index="0">
 			<bounds x="770" y="190" width="2440" height="1830" />
 		</screen>
-		<element ref="nmva_widescreen">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="screen">
-			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.4" />
-		</element>
 	</view>
-	
+
 </mamelayout>
 
 <!--
 
 - Artwork type: NMVA and Orionsangel
-- Lay file by Mr. Do
+- Lay file by Mr. Do - old layout format
 - Screen split by estefan3112
 
 -->

@@ -18,22 +18,22 @@
     <screen index="0">
       <bounds x="690" y="180" width="522" height="696" />
     </screen>
-    <element ref="bezel">
+    <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
+    </bezel>
   </view>
 
   <view name="Cabinet Scratch Screen">
     <screen index="0">
       <bounds x="690" y="180" width="522" height="696" />
     </screen>
-    <element ref="bezel">
+    <bezel element="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
-    </element>
-    <element ref="screen">
+    </bezel>
+    <bezel element="screen">
       <bounds x="0" y="0" width="1920" height="1080" />
-      <color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
-    </element>
+    <color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+    </bezel>
   </view>
 
 
@@ -41,12 +41,12 @@
     <screen index="0">
       <bounds x="555" y="0" width="810" height="1080" />
     </screen>
-    <element ref="screen_mask" blend="multiply">
+    <overlay element="screen_mask">
       <bounds x="554" y="0" width="812" height="1080" />
-    </element>
-    <element ref="screen_bezel" blend="add">
+    </overlay>
+    <backdrop element="screen_bezel">
       <bounds x="518" y="0" width="884" height="1080" />
-    </element>
+    </backdrop>
   </view>
 
  </mamelayout>
@@ -54,7 +54,7 @@
 <!--
 
 - Artwork type: Bezel and Backdrop
-- Lay file by Orionsangel
+- Lay file by Orionsangel - old layout format
 - Realistic bezel by Orionsangel
 - Artwork split and lay file update by estefan3112
 

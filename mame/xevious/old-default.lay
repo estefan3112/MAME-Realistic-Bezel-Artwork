@@ -12,34 +12,33 @@
 	</element>
 
 	<view name="Clear Screen">
+		<bezel element="realbezel">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</bezel>
 		<screen index="0">
 			<bounds x="1260" y="130" width="1480" height="1973" />
 		</screen>
-		<element ref="realbezel">
-			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
 	</view>
-
 	<view name="Scratch Screen">
-		<screen index="0">
-			<bounds x="1260" y="130" width="1480" height="1973" />
-		</screen>
-		<element ref="realbezel">
+		<bezel element="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="screen">
+		</bezel>
+		<bezel element="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
-		</element>
+		</bezel>
+		<screen index="0">
+			<bounds x="1260" y="130" width="1480" height="1973" />
+		</screen>
 	</view>
 
 	<view name="Upright_Artwork">
 		<screen index="0">
 			<bounds x="1035" y="832" width="1920" height="2560" />
 		</screen>
-		<element ref="bezel">
+		<bezel element="bezel">
 			<bounds x="0" y="0" width="3991" height="4000" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -48,7 +47,7 @@
 - Artwork type: Bezel
 - Scanned Bezel and dash piece provided by zorg
 - Bezel vectorized by zorg
-- Lay file by Mr. Do
+- Lay file by Mr. Do - old layout format
 - Additional realistic bezel by John Merrit
 - Artwork split and lay file update by estefan3112
 

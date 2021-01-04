@@ -12,22 +12,22 @@
 		<screen index="0">
 			<bounds x="585" y="35" width="750" height="1000" />
 		</screen>
-		<bezel element="bezel-real">
+		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</bezel>
+		</element>
 	</view>
 
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="585" y="35" width="750" height="1000" />
 		</screen>
-		<bezel element="bezel-real">
+		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</bezel>
-		<bezel element="screen-real">
+		</element>
+		<element ref="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
-		</bezel>
+		</element>
 	</view>
 
 </mamelayout>
@@ -36,7 +36,7 @@
 
 - Artwork type: Bezel
 - Lay file by Mr. Do
-- Realistic bezel by John Merrit 
+- Realistic bezel by John Merrit
 - Artwork split and lay file update by estefan3112
 
 -->

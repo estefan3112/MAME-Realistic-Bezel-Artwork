@@ -21,22 +21,22 @@
 		<screen index="0">
 			<bounds x="360" y="90" width="1200" height="900" />
 		</screen>
-		<element ref="bezel-real">
+		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="360" y="90" width="1200" height="900" />
 		</screen>
-		<element ref="bezel-real">
+		<bezel element="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
-		<element ref="screen-real">
+		</bezel>
+		<bezel element="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
-		</element>
+		</bezel>
 	</view>
 
 	<view name="Inst_Card">
@@ -44,15 +44,15 @@
 		<screen index="0">
 			<bounds x="0" y="0" width="4000" height="3000" />
 		</screen>
-		<element ref="inst">
+		<bezel element="inst">
 			<bounds x="0" y="3106" width="2006" height="579" />
-		</element>
-		<element ref="inst2">
+		</bezel>
+		<bezel element="inst2">
 			<bounds x="2646" y="3050" width="1354" height="635" />
-		</element>
-		<element ref="inst3">
+		</bezel>
+		<bezel element="inst3">
 			<bounds x="4100" y="1087" width="496" height="826" />
-		</element>
+		</bezel>
 	</view>
 </mamelayout>
 
@@ -62,6 +62,6 @@
 - Scanned Inst. Card provided by Mr. Do
 - On loan from Gene at Vintage Arcade Superstore
 - Converted for MAME by Mr. Do
-- Lay file by Mr. Do
+- Lay file by Mr. Do - old layout format
 
 -->
