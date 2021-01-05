@@ -7,11 +7,17 @@
 	<element name="screen-real">
 		<image file="screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="585" y="50" width="750" height="1000" />
+			<bounds x="585" y="55" width="743" height="992" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="585" y="55" width="743" height="992" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -19,8 +25,11 @@
 
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="585" y="50" width="750" height="1000" />
+			<bounds x="585" y="55" width="743" height="992" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="585" y="55" width="743" height="992" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>

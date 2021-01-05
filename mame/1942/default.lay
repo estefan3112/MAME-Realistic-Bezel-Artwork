@@ -11,7 +11,7 @@
     <image file="vert_screen_mask.png" />
   </element>
 
-	<view name="Real_Screen_Clear">
+	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="640" y="70" width="690" height="920" />
 		</screen>
@@ -23,7 +23,7 @@
 		</element>
 	</view>
 
-	<view name="Real_Screen_Scratch">
+	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="640" y="70" width="690" height="920" />
 		</screen>

@@ -7,19 +7,29 @@
 	<element name="screen">
 		<image file="altbeast-screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="375" y="34" width="1172" height="879" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="375" y="29" width="1172" height="879" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="375" y="34" width="1172" height="879" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="375" y="29" width="1172" height="879" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -28,6 +38,7 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--

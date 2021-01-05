@@ -25,7 +25,7 @@
 		</element>
 	</view>
 
-	<view name="NMVA Clear Screen">
+	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="555" y="240" width="840" height="630" />
 		</screen>
@@ -37,7 +37,7 @@
 		</element>
 	</view>
 
-	<view name="NMVA Scratch Screen">
+	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="555" y="240" width="840" height="630" />
 		</screen>
