@@ -13,18 +13,29 @@
 	<element name="screen_nmva">
 		<image file="screen_nmva.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
+
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="360" y="95" width="1196" height="897" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="360" y="95" width="1196" height="897" />
+		</element>
 		<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="360" y="95" width="1196" height="897" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="360" y="95" width="1196" height="897" />
+		</element>
 		<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -33,18 +44,26 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
 		</element>
 	</view>
+
 	<view name="NMVA Clear Screen">
 		<screen index="0">
 			<bounds x="530" y="205" width="836" height="627" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="530" y="205" width="836" height="627" />
+		</element>
 		<element ref="bezel_nmva">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="NMVA Scratch Screen">
 		<screen index="0">
 			<bounds x="530" y="205" width="836" height="627" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="530" y="205" width="836" height="627" />
+		</element>
 		<element ref="bezel_nmva">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -53,6 +72,7 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--

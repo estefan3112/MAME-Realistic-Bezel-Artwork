@@ -10,36 +10,44 @@
 	<element name="screen">
 		<image file="bombjack-screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
+
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="604" y="72" width="729" height="972" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="600" y="70" width="733" height="974" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</element>
 		<element ref="inst">
 			<bounds x="1410" y="410" width="259" height="459" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="604" y="72" width="729" height="972" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="600" y="70" width="733" height="974" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</element>
 		<element ref="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.6" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
 		</element>
 		<element ref="inst">
 			<bounds x="1410" y="410" width="259" height="459" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</element>
 	</view>
+
 	<view name="Instructions_Only">
 		<element ref="inst">
 			<bounds x="0" y="0" width="1135" height="2000" />

@@ -13,7 +13,7 @@
       <bounds x="490" y="125" width="940" height="705" />
     </screen>
     <element ref="screen_mask" blend="multiply">
-      <bounds x="483" y="100" width="955" height="745" />
+      <bounds x="485" y="123" width="950" height="712" />
     </element>
     <element ref="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />

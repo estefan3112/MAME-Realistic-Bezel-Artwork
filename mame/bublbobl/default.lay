@@ -29,10 +29,13 @@
  	   <image file="horz_screen_mask.png" />
 	</element>
 
-	<view name="Cabinet_Clear_Screen">
+	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="391" y="110" width="1137" height="852" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+      <bounds x="387" y="104" width="1143" height="859" />
+		</element>
 		<element ref="cabinet">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -42,10 +45,13 @@
 		</element>
 	</view>
 
-	<view name="Cabinet_Scratch_Screen">
+	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="391" y="110" width="1137" height="852" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+      <bounds x="387" y="104" width="1143" height="859" />
+		</element>
 		<element ref="cabinet">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -74,6 +80,18 @@
     </element>
   </view>
 
+	<view name="Bezel_Homebrew">
+		<screen index="0">
+			<bounds x="905" y="707" width="2160" height="1620" />
+		</screen>
+		<element ref="screen_mask" blend="multiply">
+      <bounds x="894" y="696" width="2174" height="1634" />
+		</element>
+		<element ref="homebrew">
+			<bounds x="0" y="0" width="4000" height="3144" />
+		</element>
+	</view>
+
 	<view name="Inst_Card_JPN">
 		<screen index="0">
 			<bounds x="0" y="0" width="4000" height="3000" />
@@ -93,15 +111,6 @@
 		</element>
 		<element ref="inst_vert">
 			<bounds x="6100" y="1500" width="1444.5" height="2000" />
-		</element>
-	</view>
-
-	<view name="Bezel_Homebrew">
-		<screen index="0">
-			<bounds x="905" y="707" width="2160" height="1620" />
-		</screen>
-		<element ref="homebrew">
-			<bounds x="0" y="0" width="4000" height="3144" />
 		</element>
 	</view>
 

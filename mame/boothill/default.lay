@@ -7,6 +7,7 @@
 	<element name="screen">
 		<image file="screen.png" />
 	</element>
+
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="290" y="85" width="1204" height="903" />
@@ -15,6 +16,7 @@
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="Background Screen">
 		<screen index="0">
 			<bounds x="290" y="85" width="1204" height="903" />

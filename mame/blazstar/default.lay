@@ -1,33 +1,43 @@
 <!-- blazstar.lay -->
 
 <mamelayout version="2">
-
-<element name="4kBezel">
-	<image file="blazing-star.png" />
-</element>
-<element name="Artwork">
-	<image file="art.png" />
-</element>
-<element name="Screen">
-	<image file="screen.png" />
-</element>
+	<element name="4kBezel">
+		<image file="blazing-star.png" />
+	</element>
+	<element name="Artwork">
+		<image file="art.png" />
+	</element>
+	<element name="Screen">
+		<image file="screen.png" />
+	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 <view name="4k Cabinet">
 	<screen index="0">
 		<bounds x="990" y="320" width="1884" height="1413" />
 	</screen>
+	<element ref="screen_mask" blend="multiply">
+		<bounds x="990" y="320" width="1884" height="1413" />
+	</element>
 	<element ref="4kBezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
 	</element>
 </view>
+
 <view name="Bezel Clear">
 	<screen index="0">
 		<bounds x="320" y="68" width="1280" height="960" />
 	</screen>
+	<element ref="screen_mask" blend="multiply">
+		<bounds x="320" y="63" width="1280" height="959" />
+	</element>
 	<element ref="Artwork">
 		<bounds x="0" y="0" width="1920" height="1080" />
 	</element>
 </view>
+
 <view name="Bezel Scratch">
 	<screen index="0">
 		<bounds x="320" y="68" width="1280" height="960" />
