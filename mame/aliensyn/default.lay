@@ -1,34 +1,49 @@
 <!-- aliensyn NMVA.lay -->
 <mamelayout version="2">
-<element name="bezel">
+	<element name="bezel">
 		<image file="aliensyn.png" />
-</element>
+	</element>
 	<element name="nmva_widescreen">
 		<image file="aliensyn_nmva_ws.png" />
 	</element>
 	<element name="nmva_screen">
 		<image file="aliensyn_nmva_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
+
 	<view name="4k Cabinet">
 		<screen index="0">
-			<bounds x="1100" y="445" width="1645" height="1290" />
+			<bounds x="1133" y="475" width="1616" height="1212" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1133" y="475" width="1616" height="1212" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>
 	</view>
+
 	<view name="NMVA Clear Screen">
 		<screen index="0">
-			<bounds x="515" y="240" width="908" height="681" />
+			<bounds x="555" y="240" width="840" height="630" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="554" y="240" width="842" height="627" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="NMVA Scratch Screen">
 		<screen index="0">
-			<bounds x="515" y="240" width="908" height="681" />
+			<bounds x="555" y="240" width="840" height="630" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="554" y="240" width="842" height="627" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -36,10 +51,11 @@
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--
-
+- Video: 320 x 224
 - Artwork by: NMVA and ArsInvictusMedia
 - Lay file and screen split by estefan3112
 
