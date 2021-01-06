@@ -10,19 +10,29 @@
 	<element name="screen">
 		<image file="cosmicg_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="1260" y="130" width="1480" height="1973" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1256" y="130" width="1488" height="1973" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="1260" y="130" width="1480" height="1973" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1256" y="130" width="1488" height="1973" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
@@ -36,6 +46,9 @@
 		<screen index="0">
 			<bounds x="944" y="479" width="2100" height="2800" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="943" y="478" width="2104" height="2800" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="4000" height="3820" />
 		</element>

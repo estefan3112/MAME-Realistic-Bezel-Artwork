@@ -7,10 +7,17 @@
 	<element name="screen">
 		<image file="carnival-screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
+
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="610" y="77" width="700" height="935" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="610" y="77" width="702" height="935" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
@@ -20,6 +27,9 @@
 		<screen index="0">
 			<bounds x="610" y="77" width="700" height="935" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="610" y="77" width="702" height="935" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />

@@ -13,26 +13,38 @@
 	<element name="screen">
 		<image file="centiped_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
+
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="600" y="48" width="730" height="972" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="600" y="48" width="730" height="974" />
+		</element>
 		<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="600" y="48" width="730" height="972" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="600" y="48" width="730" height="974" />
+		</element>
 		<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 		<element ref="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</element>
 	</view>
+
 	<view name="Cocktail_Artwork">
 		<screen index="0">
 			<bounds x="1457" y="771" width="1095" height="1460" />
@@ -44,6 +56,7 @@
 			<bounds x="0" y="0" width="4000" height="2990" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--

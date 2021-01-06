@@ -7,19 +7,29 @@
 	<element name="screen">
 		<image file="cheekyms_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="600" y="48" width="720" height="960" />
 		</screen>
-		<element ref="bezel_realistic">
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="597" y="45" width="726" height="966" />
+		</element>
+				<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="600" y="48" width="720" height="960" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="597" y="45" width="726" height="966" />
+		</element>
 		<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
