@@ -5,23 +5,13 @@
   <element name="realbezel">
     <image file="elevator_realbezel.png" />
   </element>
-
   <element name="screen">
     <image file="elevator_screen.png" />
   </element>
 
-	<element name="realbezel-orion">
-    	<image file="elevator_nmva_ws.png" />
-  	</element>
-
-	<element name="realbezel-orion-screen">
-    	<image file="elevator_nmva_screen.png" />
-  	</element>
-
-
 	<view name="Cabinet_Clear_Screen">
-		<screen index="0">
-			<bounds x="392" y="111" width="1312" height="984" />
+    <screen index="0">
+			<bounds x="392" y="111" width="1128" height="846" />
 		</screen>
 		<bezel element="realbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
@@ -29,8 +19,8 @@
 	</view>
 
 	<view name="Cabinet_Scratch_Screen">
-		<screen index="0">
-			<bounds x="392" y="111" width="1312" height="984" />
+    <screen index="0">
+			<bounds x="392" y="111" width="1128" height="846" />
 		</screen>
 		<bezel element="realbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
