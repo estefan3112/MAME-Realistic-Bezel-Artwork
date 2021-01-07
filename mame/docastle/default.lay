@@ -6,11 +6,17 @@
 	<element name="screen-real">
 		<image file="docastle_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="580" y="50" width="753" height="1004" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="580" y="50" width="753" height="1002" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -20,6 +26,9 @@
 		<screen index="0">
 			<bounds x="580" y="50" width="753" height="1004" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="580" y="50" width="753" height="1002" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>

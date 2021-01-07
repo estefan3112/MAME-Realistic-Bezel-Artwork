@@ -34,19 +34,29 @@
 	<element name="nme_demo2">
 		<image file="digdug_nme_demo2.png" alphafile="nme_mask.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
-	<view name="Cabinet Clear Screen">
+	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="1250" y="150" width="1475" height="1966" />
+			<bounds x="1250" y="153" width="1475" height="1966" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1246" y="146" width="1482" height="1981" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
 	</view>
-	<view name="Cabinet_Scratch_Screen">
+
+	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="1250" y="150" width="1475" height="1966" />
+			<bounds x="1250" y="153" width="1475" height="1966" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1246" y="146" width="1482" height="1981" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
@@ -55,6 +65,7 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</element>
 	</view>
+
 	<view name="XBLA_Widescreen">
 		<screen index="0">
 			<bounds x="385" y="20" width="510" height="680" />
