@@ -7,19 +7,29 @@
 	<element name="nmva_screen">
 		<image file="junglek_nmva_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="NMVA_Clearscreen">
 		<screen index="0">
 			<bounds x="575" y="325" width="776" height="582" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="573" y="321" width="780" height="590" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="NMVA_Scratchscreen">
 		<screen index="0">
 			<bounds x="575" y="325" width="776" height="582" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="573" y="321" width="780" height="590" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -28,12 +38,11 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--
-
 - Artwork type: NMVA
 - Lay file by Orionsangel
 - Artwork crop & screen split: estefan3112
-
 -->

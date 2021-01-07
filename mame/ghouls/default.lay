@@ -1,18 +1,18 @@
 <!-- ghouls.lay -->
 
 <mamelayout version="2">
-
 	<element name="4kbezel">
 		<image file="ghouls.png" />
 	</element>
-
   <element name="realbezel">
     <image file="ghouls_realbezel.png" />
   </element>
-
   <element name="screen">
     <image file="ghouls_screen.png" />
   </element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
   <view name="4k Cabinet">
 		<screen index="0">
@@ -23,19 +23,25 @@
 		</element>
 	</view>
 
-	<view name="Cabinet_Clear_Screen">
+	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="815" y="230" width="2370" height="1777" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="812" y="225" width="2376" height="1787" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
 	</view>
 
-	<view name="Cabinet_Scratch_Screen">
+	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="815" y="230" width="2370" height="1777" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="812" y="225" width="2376" height="1787" />
+		</element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>

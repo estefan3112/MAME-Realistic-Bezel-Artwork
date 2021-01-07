@@ -84,6 +84,9 @@
 	<element name="bezel_real">
 		<image file="invaders_real.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
 	<view name="Upright_Artwork_Midway">
 		<bezel element="bezel_m">
@@ -244,6 +247,9 @@
 		<screen index="0">
 			<bounds x="340" y="90" width="1148" height="861" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="340" y="90" width="1148" height="861" />
+		</element>
 		<element ref="bezel_real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>

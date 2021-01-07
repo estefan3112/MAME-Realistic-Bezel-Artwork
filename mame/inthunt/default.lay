@@ -9,6 +9,10 @@
 	<element name="screen">
 		<image file="inthunt_nmva_screen.png"/>
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
+
 	<view name="4k Cabinet">
 		<screen index="0">
 			<bounds x="1055" y="410" width="1725" height="1315" />
@@ -17,18 +21,26 @@
 			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>
 	</view>
+
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="875" y="300" width="2244" height="1683" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="873" y="294" width="2248" height="1695" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="875" y="300" width="2244" height="1683" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="873" y="294" width="2248" height="1695" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
@@ -37,12 +49,11 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--
-
 - Artwork type: NMVA and ArsInvictusMedia
 - Lay file by Mr. Do and ArsInvictusMedia
 - Screen split by estefan3112
-
 -->
