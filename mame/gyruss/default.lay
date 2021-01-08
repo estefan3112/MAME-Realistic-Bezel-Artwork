@@ -1,0 +1,32 @@
+<!-- gyruss.lay -->
+
+<mamelayout version="2">
+
+	<element name="bezel">
+		<image file="gyruss.png" />
+	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
+
+	<view name="artwork">
+		<screen index="0">
+			<bounds x="1268" y="280" width="1293" height="1724" />
+		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1266" y="278" width="1297" height="1728" />
+		</element>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</element>
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Original Bezel Scan
+- Lay file by ArsInvictusMedia
+
+-->
