@@ -7,55 +7,37 @@
 	<element name="marquee">
 		<image file="mk2_marquee.png" />
 	</element>
-	<element name="inst">
-		<image file="mk2_inst_card.png" />
-	</element>
 	<element name="cpo">
 		<image file="mortal_kombat_ii_cpo.png" />
 	</element>
-	<element name="bezel">
-		<image file="generic_bezel_horiz_2.png" />
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
 	</element>
+
 	<view name="4k Cabinet">
 		<screen index="0">
 			<bounds x="995" y="414" width="1842" height="1412" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="995" y="414" width="1842" height="1412" />
+		</element>
 		<element ref="4kbezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>
 	</view>
-	<view name="Upright_Artwork">
-		<screen index="0">
-			<bounds x="440" y="482" width="3120" height="2340" />
-		</screen>
-		<element ref="bezel">
-			<bounds x="0" y="0" width="4000" height="3600" />
-		</element>
-		<element ref="inst">
-			<bounds x="778" y="2973" width="2444" height="556" />
-		</element>
-		<marquee element="marquee">
-			<bounds x="0" y="-1660" width="4000" height="1610" />
-		</marquee>
-		<cpanel element="cpo">
-			<bounds x="-200" y="3650" width="4400" height="2192" />
-		</cpanel>
-	</view>
+
 	<view name="Marquee_Only">
-		<marquee element="marquee">
+		<element ref="marquee">
 			<bounds x="0" y="0" width="4000" height="1610" />
-		</marquee>
+		</element>
 	</view>
+
 	<view name="CPanel_Only">
-		<cpanel element="cpo">
+		<element ref="cpo">
 			<bounds x="0" y="0" width="4000" height="1993" />
-		</cpanel>
+		</element>
 	</view>
-	<view name="Instructions_Only">
-		<bezel element="inst">
-			<bounds x="0" y="0" width="3760" height="856" />
-		</bezel>
-	</view>
+
 </mamelayout>
 
 <!--

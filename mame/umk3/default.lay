@@ -13,11 +13,17 @@
 	<element name="marquee2">
 		<image file="umk3_marquee.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="4k Cabinet">
 		<screen index="0">
 			<bounds x="997" y="419" width="1842" height="1410" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="997" y="419" width="1842" height="1410" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>

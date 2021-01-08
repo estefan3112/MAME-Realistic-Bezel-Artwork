@@ -10,19 +10,29 @@
 	<element name="cabaret">
 		<image file="klax_cabaret.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
-	<view name="Realistic Cab Clear">
+	<view name="Clear Screeen">
 		<screen index="0">
 			<bounds x="595" y="235" width="764" height="573" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="595" y="235" width="764" height="573" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
-	<view name="Realistic Cab Scratch">
+
+	<view name="Scratch Screen">
 		<screen index="0">
 			<bounds x="595" y="235" width="764" height="573" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="595" y="235" width="764" height="573" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -31,6 +41,7 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
 		</element>
 	</view>
+
 	<view name="Cabaret_Artwork">
 		<screen index="0">
 			<bounds x="585" y="364" width="2800" height="2100" />
@@ -39,6 +50,7 @@
 			<bounds x="0" y="0" width="4000" height="2935" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--
