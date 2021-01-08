@@ -13,14 +13,22 @@
 	<element name="inst2">
 		<image file="msh_inst_2.png" />
 	</element>
-	<view name="4k Cabinet">
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
+
+	<view name="4k Cabinet Screen Mask">
 		<screen index="0">
-			<bounds x="990" y="320" width="1884" height="1413" />
+			<bounds x="985" y="365" width="1864" height="1398" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="985" y="365" width="1864" height="1398" />
+		</element>
 		<element ref="4kbezel">
 			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>
 	</view>
+
 	<view name="Upright_Artwork">
 		<screen index="0">
 			<bounds x="597" y="586" width="2800" height="2100" />

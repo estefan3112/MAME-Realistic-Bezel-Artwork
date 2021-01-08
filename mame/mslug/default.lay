@@ -16,33 +16,20 @@
 	<element name="bezelG">
 		<image file="Bezel - 16x9 mslug (Grizz).png" />
 	</element>
-	<element name="neogeo">
-		<image file="ng_marq.png" />
-	</element>
 	<element name="mini">
 		<image file="mslug.png" />
 	</element>
-	<element name="blank">
-		<rect>
-			<color red="0" green="0" blue="0" />
-		</rect>
-	</element>
-	<element name="bezel">
-		<image file="neogeo_bezel.png" />
-	</element>
-	<element name="cpo">
-		<image file="neogeo_cpo.png" />
-	</element>
-	<element name="digit" defstate="10">
-		<led7seg>
-			<color red="1.0" green="0.3" blue="0.0" />
-		</led7seg>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
 	</element>
 
 	<view name="mslug4k">
 		<screen index="0">
-			<bounds x="940" y="410" width="1952" height="1366" />
+			<bounds x="992" y="416" width="1888" height="1416" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="990" y="414" width="1892" height="1420" />
+		</element>
 		<element ref="bezel4k">
 			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>
@@ -82,69 +69,6 @@
 		<element ref="bezelG">
 			<bounds x="0" y="0" width="1852" height="1043" />
 		</element>
-	</view>
-
- 	<view name="Upright_Artwork">
-		<screen index="0">
-			<bounds x="580" y="735" width="2840" height="2130" />
-		</screen>
-		<element ref="blank">
-			<bounds x="580" y="735" width="142" height="2135" />
-		</element>
-		<element ref="blank">
-			<bounds x="3278" y="735" width="142" height="2135" />
-		</element>
-		<element ref="bezel">
-			<bounds x="0" y="0" width="4000" height="3600" />
-		</element>
-		<element ref="mini">
-			<bounds x="3070" y="-1038" width="782" height="950" />
-		</element>
-		<element ref="neogeo">
-			<bounds x="0" y="-1126" width="4000" height="1106" />
-		</element>
-		<element ref="cpo">
-			<bounds x="0" y="3600" width="4000" height="1504" />
-		</element>
-		<cpanel name="digit1" element="digit">
-			<bounds x="712" y="3751" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit2" element="digit">
-			<bounds x="801" y="3751" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit3" element="digit">
-			<bounds x="2675" y="3751" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit4" element="digit">
-			<bounds x="2764" y="3751" width="86" height="115" />
-		</cpanel>
-	</view>
-
-	<view name="Marquee_Only">
-		<element ref="mini">
-			<bounds x="3070" y="-1038" width="782" height="950" />
-		</element>
-		<element ref="neogeo">
-			<bounds x="0" y="-1126" width="4000" height="1106" />
-		</element>
-	</view>
-
-	<view name="CPanel_Only">
-		<element ref="cpo">
-			<bounds x="0" y="4000" width="4000" height="1504" />
-		</element>
-		<cpanel name="digit1" element="digit">
-			<bounds x="712" y="4151" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit2" element="digit">
-			<bounds x="801" y="4151" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit3" element="digit">
-			<bounds x="2675" y="4151" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit4" element="digit">
-			<bounds x="2764" y="4151" width="86" height="115" />
-		</cpanel>
 	</view>
 
 	<view name="Instructions_Only">

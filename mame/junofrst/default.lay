@@ -11,7 +11,6 @@
 		<image file="vert_screen_mask.png" />
 	</element>
 
-
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="1230" y="130" width="1560" height="2080" />

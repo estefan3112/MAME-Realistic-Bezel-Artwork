@@ -13,11 +13,17 @@
 	<element name="screen-real">
 		<image file="screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="620" y="100" width="681" height="908" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="618" y="100" width="685" height="884" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -27,6 +33,9 @@
 		<screen index="0">
 			<bounds x="620" y="100" width="681" height="908" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="618" y="100" width="685" height="884" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
