@@ -7,11 +7,17 @@
 	<element name="screen">
 		<image file="rastan_nmva_ws_screen.png" />
 	</element>
+	<element name="mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="770" y="190" width="2440" height="1830" />
 		</screen>
+		<element ref="mask" blend="multiply">
+    	  <bounds x="768" y="188" width="2444" height="1834" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
@@ -21,6 +27,9 @@
 		<screen index="0">
 			<bounds x="770" y="190" width="2440" height="1830" />
 		</screen>
+		<element ref="mask" blend="multiply">
+    	  <bounds x="768" y="188" width="2444" height="1834" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
@@ -29,7 +38,7 @@
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.4" />
 		</element>
 	</view>
-	
+
 </mamelayout>
 
 <!--

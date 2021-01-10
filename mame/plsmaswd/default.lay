@@ -16,7 +16,7 @@
 		<screen index="0">
 			<bounds x="1200" y="560" width="1612" height="1209" />
 		</screen>
-		<element ref="mask">
+		<element ref="mask" blend="multiply">>
     	  <bounds x="1190" y="560" width="1624" height="1215" />
 		</element>
 		<element ref="bezel">
@@ -28,11 +28,11 @@
 		<screen index="0">
 			<bounds x="1200" y="560" width="1612" height="1209" />
 		</screen>
+		<element ref="mask" blend="multiply">>
+    	  <bounds x="1190" y="560" width="1624" height="1215" />
+		</element>
 		<element ref="bezel">
     	  <bounds x="0" y="0" width="4000" height="2250" />
-		</element>
-		<element ref="mask">
-    	  <bounds x="1190" y="560" width="1624" height="1215" />
 		</element>
 		<element ref="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />

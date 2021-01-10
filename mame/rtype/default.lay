@@ -10,36 +10,50 @@
 	<element name="wwbezel">
 		<image file="rtype1610.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="4k Cabinet">
 		<screen index="0">
-			<bounds left="950" top="490" right="2880" bottom="1770" />
+			<bounds x="952" y="488" width="1920" height="1280" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">>
+    	<bounds x="948" y="486" width="1932" height="1292" />
+		</element>
 		<element ref="4kbezel">
-			<bounds left="0" top="0" right="3840" bottom="2160" />
+			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>
 	</view>
 
 	<view name="Widescreen 16:10 Artwork">
 		<screen index="0">
-			<bounds left="424.46" top="158.34" right="2135.54" bottom="1441.65" />
+			<bounds x="424" y="158" width="1728" height="1152" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">>
+    	<bounds x="422" y="156" width="1732" height="1160" />
+		</element>
 		<element ref="wwbezel">
-			<bounds left="0" top="0" right="2560" bottom="1600" />
+			<bounds x="0" y="0" width="2560" height="1600" />
 		</element>
 	</view>
+
 	<view name="Widescreen 16:9 Artwork">
 		<screen index="0">
-			<bounds left="436.5" top="65" right="2396.5" bottom="1535" />
+			<bounds x="436" y="120" width="1958" height="1305" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">>
+    	<bounds x="434" y="118" width="1962" height="1311" />
+		</element>
 		<element ref="wbezel">
-			<bounds left="0" top="0" right="2833" bottom="1600" />
+			<bounds x="0" y="0" width="2833" height="1600" />
 		</element>
 	</view>
+
 </mamelayout>
 
 <!--
-- Screen: 384 x 256, translates into 1930 x 1280
+- Screen: 384 x 256 (atypical screen resolution)
 - Artwork type: Custom Widescreen, 4k Cabinet
 - Widescreen graphics by hausjam, 4k Cabinet by ArsInvictusMedia
 - Based on graphics in official arcade artwork
