@@ -10,11 +10,17 @@
 	<element name="screen">
 		<image file="scramble_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="1260" y="150" width="1480" height="1973" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1258" y="148" width="1484" height="1977" />
+		</element>
 		<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
@@ -24,6 +30,9 @@
 		<screen index="0">
 			<bounds x="1260" y="150" width="1480" height="1973" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1258" y="148" width="1484" height="1977" />
+		</element>
 		<element ref="bezel_realistic">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
@@ -37,6 +46,9 @@
 		<screen index="0">
 			<bounds x="900" y="596" width="1581" height="2108" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="898" y="594" width="1585" height="2112" />
+		</element>
 		<element ref="bezel">
 			<bounds x="0" y="0" width="3358" height="3019" />
 		</element>
@@ -47,7 +59,7 @@
 
 - Artwork type: Bezel
 - Bezel provided by John Merrit
-- Converted for MAME by estefan3112
+- Converted for MAME and updated by estefan3112
 - Based on lay file by Mr. Do
 
 -->
