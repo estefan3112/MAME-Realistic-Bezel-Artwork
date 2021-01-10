@@ -1,30 +1,15 @@
 <!-- neogeo.lay -->
 
 <mamelayout version="2">
+
 	<element name="Cabinet">
 		<image file="cab.png" />
 	</element>
-	<element name="Cabinet Clear">
-		<image file="cab-clean.png" />
+	<element name="screen-real">
+		<image file="screen.png" />
 	</element>
-	<element name="neogeo">
-		<image file="ng_marq.png" />
-	</element>
-	<element name="mini">
-		<image file="mvs.png" />
-	</element>
-	<element name="bezel">
-		<image file="neogeo_bezel.png" />
-	</element>
-	<element name="cpo">
-		<image file="neogeo_cpo.png" />
-	</element>
-	<element name="digit" defstate="10">
-		<led7seg>
-			<color red="1.0" green="0.3" blue="0.0" />
-		</led7seg>
-	</element>
-	<view name="Used Cabinet">
+
+	<view name="NeoGeo Clear Screen">
 		<screen index="0">
 			<bounds x="760" y="200" width="2480" height="1860" />
 		</screen>
@@ -32,82 +17,23 @@
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</bezel>
 	</view>
-	<view name="Clear Screen Cabinet">
+
+	<view name="NeoGeo Scratch Screen">
 		<screen index="0">
 			<bounds x="760" y="200" width="2480" height="1860" />
 		</screen>
-		<bezel element="Cabinet Clear">
+		<bezel element="Cabinet">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</bezel>
-	</view>
- 	<view name="Upright_Artwork_MVS">
-		<screen index="0">
-			<bounds x="580" y="735" width="2840" height="2130" />
-		</screen>
-		<bezel element="bezel">
-			<bounds x="0" y="0" width="4000" height="3600" />
+		<bezel element="screen-real">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 		</bezel>
-		<marquee element="mini">
-			<bounds x="3070" y="-1038" width="782" height="950" />
-		</marquee>
-		<marquee element="neogeo">
-			<bounds x="0" y="-1126" width="4000" height="1106" />
-		</marquee>
-		<cpanel element="cpo">
-			<bounds x="0" y="3600" width="4000" height="1504" />
-		</cpanel>
-		<cpanel name="digit1" element="digit">
-			<bounds x="712" y="3751" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit2" element="digit">
-			<bounds x="801" y="3751" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit3" element="digit">
-			<bounds x="2675" y="3751" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit4" element="digit">
-			<bounds x="2764" y="3751" width="86" height="115" />
-		</cpanel>
 	</view>
-	<view name="Marquee_Only_MVS">
-		<marquee element="mini">
-			<bounds x="3070" y="-1038" width="782" height="950" />
-		</marquee>
-		<marquee element="neogeo">
-			<bounds x="0" y="-1126" width="4000" height="1106" />
-		</marquee>
-	</view>
-	<view name="CPanel_Only_MVS">
-		<cpanel element="cpo">
-			<bounds x="0" y="4000" width="4000" height="1504" />
-		</cpanel>
-		<cpanel name="digit1" element="digit">
-			<bounds x="712" y="4151" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit2" element="digit">
-			<bounds x="801" y="4151" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit3" element="digit">
-			<bounds x="2675" y="4151" width="86" height="115" />
-		</cpanel>
-		<cpanel name="digit4" element="digit">
-			<bounds x="2764" y="4151" width="86" height="115" />
-		</cpanel>
-	</view>
-	<view name="Instructions_Only_MVS">
-		<marquee element="mini">
-			<bounds x="0" y="0" width="825" height="1002" />
-		</marquee>
-	</view>
+
 </mamelayout>
 
 <!--
-
-- Artwork type: Inst. Card
-- Scanned Neo Geo marquee provided by ClassicArcadeGrafix
-- Vectorized by zorg
-- Scanned mini-marquee provided by oNyX
 - Converted for MAME by Mr. Do
 - Lay file by Mr. Do - old layout format
-
 -->
