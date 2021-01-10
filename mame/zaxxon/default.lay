@@ -13,11 +13,18 @@
 	<element name="bezelK">
 		<image file="art.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="vert_screen_mask.png" />
+	</element>
+
 
 	<view name="Cabinet Clear Screen">
 		<screen index="0">
 			<bounds x="589" y="56" width="747" height="996" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="587" y="54" width="751" height="1000" />
+		</element>
 		<element ref="cab">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -27,6 +34,9 @@
 		<screen index="0">
 			<bounds x="589" y="56" width="747" height="996" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="587" y="54" width="751" height="1000" />
+		</element>
 		<element ref="cab">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>

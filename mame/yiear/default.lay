@@ -16,11 +16,17 @@
 	<element name="screen-real">
 		<image file="screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
 			<bounds x="360" y="90" width="1200" height="900" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">>
+    	<bounds x="357" y="88" width="1204" height="904" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -30,12 +36,15 @@
 		<screen index="0">
 			<bounds x="360" y="90" width="1200" height="900" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">>
+    	<bounds x="357" y="88" width="1204" height="904" />
+		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 		<element ref="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
 		</element>
 	</view>
 

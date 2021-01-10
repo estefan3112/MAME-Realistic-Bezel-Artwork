@@ -16,8 +16,11 @@
 
   <view name="Cabinet Clear Screen">
     <screen index="0">
-      <bounds x="690" y="180" width="522" height="696" />
+      <bounds x="690" y="184" width="516" height="688" />
     </screen>
+    <element ref="screen_mask" blend="multiply">
+			<bounds x="688" y="178" width="523" height="700" />
+		</element>
     <element ref="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
     </element>
@@ -25,14 +28,17 @@
 
   <view name="Cabinet Scratch Screen">
     <screen index="0">
-      <bounds x="690" y="180" width="522" height="696" />
+      <bounds x="690" y="184" width="516" height="688" />
     </screen>
+    <element ref="screen_mask" blend="multiply">
+			<bounds x="688" y="178" width="523" height="700" />
+		</element>
     <element ref="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
     </element>
     <element ref="screen">
       <bounds x="0" y="0" width="1920" height="1080" />
-      <color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+      <color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
     </element>
   </view>
 
