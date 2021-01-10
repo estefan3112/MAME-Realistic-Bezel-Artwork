@@ -7,25 +7,34 @@
 	<element name="screen">
 		<image file="paperboy_nmva_screen.png" />
 	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
 
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="1030" y="280" width="1984" height="1488" />
+			<bounds x="1030" y="285" width="1984" height="1488" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1026" y="274" width="1988" height="1505" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
 	</view>
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="1030" y="280" width="1984" height="1488" />
+			<bounds x="1030" y="285" width="1984" height="1488" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="1026" y="274" width="1988" height="1505" />
+		</element>
 		<element ref="nmva_widescreen">
 			<bounds x="0" y="0" width="4000" height="2250" />
 		</element>
 		<element ref="screen">
 			<bounds x="0" y="0" width="4000" height="2250" />
-			<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
 		</element>
 	</view>
 </mamelayout>

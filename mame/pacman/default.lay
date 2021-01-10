@@ -11,29 +11,41 @@
   <element name="bezel_noref_screen">
     <image file="pacman_bezel_noref_screen.png" />
   </element>
+  <element name="screen_mask">
+    <image file="vert_screen_mask.png" />
+  </element>
 
   <view name="Full Cabinet">
     <screen index="0">
       <bounds x="695" y="135" width="477" height="636" />
     </screen>
+    <element ref="screen_mask" blend="multiply">
+			<bounds x="694" y="134" width="479" height="638" />
+		</element>
     <element ref="bezel">
       <bounds x="0" y="0" width="1920" height="1080" />
     </element>
   </view>
 
-  <view name="Close Cabinet Clean">
+  <view name="Close Cabinet Clean Screen">
     <screen index="0">
       <bounds x="590" y="50" width="750" height="1000" />
     </screen>
+    <element ref="screen_mask" blend="multiply">
+			<bounds x="590" y="50" width="750" height="1000" />
+		</element>
     <element ref="bezel_noref">
       <bounds x="0" y="0" width="1920" height="1080" />
     </element>
   </view>
 
-  <view name="Close Cabinet Scratch">
+  <view name="Close Cabinet Scratch Screen">
     <screen index="0">
       <bounds x="590" y="50" width="750" height="1000" />
     </screen>
+    <element ref="screen_mask" blend="multiply">
+			<bounds x="590" y="50" width="750" height="1000" />
+		</element>
     <element ref="bezel_noref">
       <bounds x="0" y="0" width="1920" height="1080" />
     </element>
