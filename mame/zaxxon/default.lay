@@ -16,6 +16,10 @@
 	<element name="screen_mask">
 		<image file="vert_screen_mask.png" />
 	</element>
+	<element name="screen_bezel">
+		<image file="vert_screen_bezel.png" />
+	</element>
+
 
 
 	<view name="Cabinet Clear Screen">
@@ -57,8 +61,14 @@
 
 	<view name="Hausjam_Artwork">
 		<screen index="0">
-			<bounds x="832" y="20" width="1170" height="1560" />
+			<bounds x="862" y="35" width="1122" height="1496" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="860" y="23" width="1115" height="1515" />
+		</element>
+		<element ref="screen_bezel">
+			<bounds x="812" y="0" width="1210" height="1600" />
+		</element>
 		<element ref="wbezel">
 			<bounds x="0" y="0" width="2833" height="1600" />
 		</element>
@@ -72,6 +82,6 @@
 - Additional artwowrk from Mamehead Collection
 - Based on graphics in official arcade artwork
 - Used cab by John Merrit
-- Lay file by Mr. Do - layfile update by estefan3112
+- Lay file by Mr. Do - layfile update, screen bezel and screen mask by estefan3112
 
 -->
