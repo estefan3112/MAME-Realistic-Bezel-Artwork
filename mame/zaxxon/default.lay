@@ -50,10 +50,13 @@
 		</element>
 	</view>
 
-	<view name="Artwork">
+	<view name="Mamehead Artwork">
 		<screen index="0">
-			<bounds x="600" y="56" width="726" height="968" />
+			<bounds x="515" y="19" width="896" height="1040" />
 		</screen>
+		<element ref="screen_mask" blend="multiply">
+					<bounds x="513" y="17" width="900" height="1044" />
+				</element>
 		<element ref="bezelK">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
@@ -77,9 +80,9 @@
 
 <!--
 
-- Artwork type: Arcade Widescreen
+- screen resolution: 256x224
 - Widescreen graphics by hausjam
-- Additional artwowrk from Mamehead Collection
+- Additional artwork from Mamehead Collection
 - Based on graphics in official arcade artwork
 - Used cab by John Merrit
 - Lay file by Mr. Do - layfile update, screen bezel and screen mask by estefan3112
