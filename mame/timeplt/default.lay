@@ -50,7 +50,7 @@
     <element ref="screen_mask" blend="multiply">
       <bounds x="554" y="0" width="812" height="1080" />
     </element>
-    <element ref="screen_bezel" blend="add">
+    <element ref="screen_bezel">
       <bounds x="518" y="0" width="884" height="1080" />
     </element>
   </view>
