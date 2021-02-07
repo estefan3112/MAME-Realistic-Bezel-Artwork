@@ -1,0 +1,25 @@
+<!-- videopac.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+
+	<view name="Videopac Bezel">
+		<screen index="0">
+			<bounds x="350" y="80" width="1220" height="915" />
+		</screen>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Bezel by John Merrit
+- Lay file by estefan3112
+
+-->
