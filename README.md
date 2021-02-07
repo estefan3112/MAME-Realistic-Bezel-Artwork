@@ -2,6 +2,8 @@
 
 Important Update below as of January 2021!
 
+![alt text](screenshots/bankp.jpg "Bank Panic with Overlay in MAME")
+
 These Arcade Bezels provide the impression of (more or less heavily) used arcade machines, which I particularly like. Most of these bezels were produced by John Merrit, Ars Invictus and Orions Angel.
 
 ![alt text](screenshots/bankp.jpg "Bank Panic with Overlay in MAME")
