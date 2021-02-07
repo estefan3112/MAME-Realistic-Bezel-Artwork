@@ -1,6 +1,10 @@
 # MAME-Realistic-Bezel-Artwork
 
-Important Update below as of January 2021!
+**Important Update as of January 2021:**
+* updated all lay files to new format
+* clean-up of all bezels completed
+* screen mask to all bezels added
+* screen bezels added to selected artwork (e.g. shinobi)
 
 ![alt text](screenshots/shihnobi.jpg "Shinobi with Overlay in MAME")
 
