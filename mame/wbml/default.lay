@@ -1,0 +1,50 @@
+<!-- wbml.lay -->
+
+<mamelayout version="2">
+	<element name="bezel-real">
+		<image file="bezel.png" />
+	</element>
+	<element name="screen-real">
+		<image file="screen.png" />
+	</element>
+	<element name="screen_mask">
+		<image file="horz_screen_mask.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="768" y="193" width="2472" height="1874" />
+		</screen>
+		<element ref="screen_mask" blend="multiply">
+    	<bounds x="766" y="191" width="2474" height="1876" />
+		</element>
+		<element ref="bezel-real">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</element>
+	</view>
+
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="768" y="193" width="2472" height="1874" />
+		</screen>
+		<element ref="screen_mask" blend="multiply">
+			<bounds x="766" y="191" width="2474" height="1876" />
+		</element>
+		<element ref="bezel-real">
+			<bounds x="0" y="0" width="4000" height="2250" />
+		</element>
+		<element ref="screen-real">
+			<bounds x="0" y="0" width="4000" height="2250" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</element>
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Realistic bezel by John Merrit
+- Artwork split and lay file by estefan3112
+
+-->
