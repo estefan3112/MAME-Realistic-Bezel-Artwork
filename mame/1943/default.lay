@@ -2,7 +2,7 @@
 
 <mamelayout version="2">
 	<element name="realbezel">
-		<image file="1943_realbezel.png" />
+		<image file="1943_realbezel-new.png" />
 	</element>
 	<element name="screen">
 		<image file="1943_screen.png" />
@@ -10,34 +10,33 @@
 	<element name="screen_mask">
 		<image file="vert_screen_mask.png" />
 	</element>
-
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="592" y="55" width="744" height="992" />
+			<bounds x="588" y="23" width="744" height="1045" />
 		</screen>
 		<element ref="screen_mask" blend="multiply">
-      <bounds x="592" y="55" width="744" height="992" />
+      <bounds x="587" y="22" width="744" height="1047" />
     </element>
 		<element ref="realbezel">
 			<bounds x="0" y="0" width="1920" height="1080" />
 		</element>
 	</view>
+
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="592" y="55" width="744" height="992" />
+			<bounds x="588" y="23" width="744" height="1045" />
 		</screen>
 		<element ref="screen_mask" blend="multiply">
-      <bounds x="592" y="55" width="744" height="992" />
+      <bounds x="587" y="22" width="744" height="1047" />
     </element>
-		<element ref="realbezel">
-			<bounds x="0" y="0" width="1920" height="1080" />
-		</element>
 		<element ref="screen">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
 		</element>
+		<element ref="realbezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
 	</view>
-
 </mamelayout>
 
 <!--
