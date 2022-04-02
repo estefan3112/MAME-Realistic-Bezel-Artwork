@@ -2,7 +2,7 @@
 
 <mamelayout version="2">
 	<element name="bezel-real">
-		<image file="bezel.png" />
+		<image file="bezel-new.png" />
 	</element>
 	<element name="screen-real">
 		<image file="screen.png" />
@@ -13,10 +13,10 @@
 
 	<view name="Clear Screen">
 		<screen index="0">
-			<bounds x="355" y="85" width="1200" height="900" />
+			<bounds x="375" y="55" width="1170" height="960" />
 		</screen>
 		<element ref="screen_mask" blend="multiply">
-			<bounds x="355" y="86" width="1202" height="898" />
+			<bounds x="375" y="54" width="1182" height="958" />
 		</element>
 		<element ref="bezel-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
@@ -25,18 +25,19 @@
 
 	<view name="Scratch Screen">
 		<screen index="0">
-			<bounds x="355" y="85" width="1200" height="900" />
+			<bounds x="375" y="55" width="1170" height="960" />
 		</screen>
 		<element ref="screen_mask" blend="multiply">
-			<bounds x="355" y="86" width="1202" height="898" />
-		</element>
-		<element ref="bezel-real">
-			<bounds x="0" y="0" width="1920" height="1080" />
+			<bounds x="375" y="54" width="1182" height="958" />
 		</element>
 		<element ref="screen-real">
 			<bounds x="0" y="0" width="1920" height="1080" />
 			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
 		</element>
+		<element ref="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+
 	</view>
 
 </mamelayout>
