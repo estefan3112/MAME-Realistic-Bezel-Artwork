@@ -8,18 +8,36 @@
 	<element name="screen_mask">
 		<image file="vert_screen_mask.png" />
 	</element>
+	<element name="bezel-new">
+		<image file="gyruss-bezel.png" />
+	</element>
+	<element name="screen">
+		<image file="gyruss-screen.png" />
+	</element>
 
-	<view name="artwork">
+	<view name="bezel clear screen">
 		<screen index="0">
-			<bounds x="1268" y="280" width="1293" height="1724" />
+			<bounds x="1280" y="330" width="1293" height="1724" />
 		</screen>
-		<element ref="screen_mask" blend="multiply">
-			<bounds x="1266" y="278" width="1297" height="1728" />
-		</element>
-		<element ref="bezel">
+		<element ref="bezel-new">
 			<bounds x="0" y="0" width="3840" height="2160" />
 		</element>
 	</view>
+	<view name="bezel scratch screen">
+		<screen index="0">
+			<bounds x="1280" y="330" width="1293" height="1724" />
+		</screen>
+		<element ref="screen">
+			<bounds x="0" y="0" width="3840" height="2160" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
+		</element>
+		<element ref="bezel-new">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</element>
+	</view>
+
+
+
 
 </mamelayout>
 
