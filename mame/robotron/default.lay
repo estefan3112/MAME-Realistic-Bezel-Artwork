@@ -1,0 +1,42 @@
+<!-- insert game name.lay -->
+
+<mamelayout version="2">
+	<element name="bezel-real">
+		<image file="robotron-bezel.png" />
+	</element>
+	<element name="screen-real">
+		<image file="robotron-screen.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="380" y="60" width="1160" height="960" />
+		</screen>
+		<element ref="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="380" y="60" width="1160" height="960" />
+		</screen>
+		<element ref="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+		<element ref="screen-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.7" />
+		</element>
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- This is my default MAME Artwork Layout File as of MAME v 0.225
+- Realistic bezel by John Merrit
+- Artwork split and lay file update by estefan3112
+
+-->
