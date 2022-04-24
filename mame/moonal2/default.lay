@@ -1,0 +1,42 @@
+<!-- insert game name.lay -->
+
+<mamelayout version="2">
+	<element name="bezel-real">
+		<image file="bezel-real.png" />
+	</element>
+	<element name="screen-real">
+		<image file="screen-real.png" />
+	</element>
+
+	<view name="Clear Screen">
+		<screen index="0">
+			<bounds x="615" y="140" width="645" height="825" />
+		</screen>
+		<element ref="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+
+	<view name="Scratch Screen">
+		<screen index="0">
+			<bounds x="615" y="140" width="645" height="825" />
+		</screen>
+		<element ref="screen-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+			<color red="1.0" green="1.0" blue="1.0" alpha="0.9" />
+		</element>
+		<element ref="bezel-real">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</element>
+	</view>
+
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- This is no more than an emergency bezel, as I could not find any decent bezel photo.
+- Bezel is based on a rough cabinet photo from an arcade forum, I extracted the bezel with best efforts.
+- Realistic background by John Merrit
+
+-->
